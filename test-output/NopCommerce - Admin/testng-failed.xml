@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [NopCommerce - Admin]">
+  <parameter name="url" value="https://demo.nopcommerce.com/"/>
+  <listeners>
+    <listener class-name="commons.MethodListener"/>
+    <listener class-name="reportConfig.ExtentReportListenerV4"/>
+  </listeners>
+  <test thread-count="5" name="run on CHROME(failed)">
+    <parameter name="browser" value="chrome"/>
+    <groups>
+      <run>
+        <include name="register"/>
+        <include name="login"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.nopcommerce.common.Common_02_Login">
+        <methods>
+          <include name="afterClass"/>
+          <include name="TC06_Login_With_Valid_Data"/>
+        </methods>
+      </class> <!-- com.nopcommerce.common.Common_02_Login -->
+      <class name="com.nopcommerce.common.Common_01_Register">
+        <methods>
+          <include name="afterTest"/>
+          <include name="TC03_Register_With_Valid_Data"/>
+        </methods>
+      </class> <!-- com.nopcommerce.common.Common_01_Register -->
+    </classes>
+  </test> <!-- run on CHROME(failed) -->
+</suite> <!-- Failed suite [NopCommerce - Admin] -->

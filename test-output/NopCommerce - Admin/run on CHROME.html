@@ -1,0 +1,127 @@
+<html>
+<head>
+<title>TestNG:  run on CHROME</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>run on CHROME</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>2/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Fri Apr 21 22:40:38 ICT 2023</td>
+</tr>
+<tr><td>Total time:</td><td>17 seconds (17369 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.nopcommerce.common.Common_01_Register.TC03_Register_With_Valid_Data()'><b>TC03_Register_With_Valid_Data</b><br>Test class: com.nopcommerce.common.Common_01_Register<br/>
+<a href="#Output-1065443868" onClick='toggleBox("Output-1065443868", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1065443868" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1065443868">
+[INFO ] [2023-04-21 22:40:45,314] Register 03 - Step 02: Input to FirstName with value
+<br><br/>
+[INFO ] [2023-04-21 22:40:45,503] Register 03 - Step 03: Input to LastName with value
+<br><br/>
+[INFO ] [2023-04-21 22:40:45,690] Register 03 - Step 04: Input to Email Textbox with value: automationkfc4000@testing.com
+<br><br/>
+[INFO ] [2023-04-21 22:40:45,888] Register 03 - Step 05: Input to Password Textbox with value: 123456?Aa
+<br><br/>
+[INFO ] [2023-04-21 22:40:46,234] Register 03 - Step 06: Click to Register button at Register page
+<br><br/>
+[INFO ] [2023-04-21 22:40:47,072] Register 03 - Step 07: Verify Success message displayed
+<br><br/>
+[INFO ] [2023-04-21 22:40:47,153]  -------------------------- PASSED -------------------------- 
+<br><br/>
+[INFO ] [2023-04-21 22:40:47,155] Register 03 - Step 09: Click to Continue button at Register page and navigate to Home page
+<br><br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>com.nopcommerce.common.Common_01_Register@2a17b7b6</td></tr>
+<tr>
+<td title='com.nopcommerce.common.Common_02_Login.TC06_Login_With_Valid_Data()'><b>TC06_Login_With_Valid_Data</b><br>Test class: com.nopcommerce.common.Common_02_Login<br/>
+<a href="#Output-1856128687" onClick='toggleBox("Output-1856128687", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1856128687" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1856128687">
+[INFO ] [2023-04-21 22:40:53,648] Login 06 - Step 01: Input to 'Email' textbox with value: automationkfc4000@testing.com
+<br><br/>
+[INFO ] [2023-04-21 22:40:53,847] Login 06 - Step 02: Input to 'Password' textbox with value: 123456?Aa
+<br><br/>
+[INFO ] [2023-04-21 22:40:54,031] Login 06 - Step 03: Click to 'Login' button at Login page
+<br><br/>
+[INFO ] [2023-04-21 22:40:54,931] Login 06 - Step 04: Verify 'My Account' link displayed
+<br><br/>
+[INFO ] [2023-04-21 22:40:55,015]  -------------------------- PASSED -------------------------- 
+<br><br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>com.nopcommerce.common.Common_02_Login@4f063c0a</td></tr>
+</table><p>
+</body>
+</html>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="NopCommerce - User" parallel="tests">
+
+	<parameter name="url" value="https://demo.nopcommerce.com/" />
+
+	<listeners>
+		<listener class-name="commons.MethodListener" />
+		<listener class-name="reportConfig.ExtentReportListenerV4" />
+
+	</listeners>
+	<test name="run on CHROME">
+		<parameter name="browser" value="chrome" />
+
+		<!--  <groups>
+  	<run>
+  		<include name="register"/>  	
+  		<include name="login"/>  	
+  	</run>
+  </groups> -->
+
+		<classes>
+			<class name="com.nopcommerce.common.Common_01_Register" />
+			<class name="com.nopcommerce.user.MyAccount_04_My_Product_Preview" />
+		</classes>
+
+		<!-- <packages>
+			<package name="com.nopcommerce.user" />
+		</packages>-->
+
+
+	</test>
+
+</suite>

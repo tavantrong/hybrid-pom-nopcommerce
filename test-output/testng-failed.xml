@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [NopCommerce - User]" parallel="tests">
+  <parameter name="url" value="https://demo.nopcommerce.com/"/>
+  <listeners>
+    <listener class-name="commons.MethodListener"/>
+    <listener class-name="reportConfig.ExtentReportListenerV4"/>
+  </listeners>
+  <test thread-count="5" name="run on CHROME(failed)" parallel="tests">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.nopcommerce.user.MyAccount_04_My_Product_Preview">
+        <methods>
+          <include name="MyReview_01_Add_Review"/>
+          <include name="MyReview_02_Verify_Review_Display_In_My_Product_Review"/>
+          <include name="afterClass"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- com.nopcommerce.user.MyAccount_04_My_Product_Preview -->
+    </classes>
+  </test> <!-- run on CHROME(failed) -->
+</suite> <!-- Failed suite [NopCommerce - User] -->
