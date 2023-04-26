@@ -54,4 +54,88 @@ public class HomePageObject extends BasePage{
 		isElementUndisplayed(driver, HomePageUI.SHOPPING_CART_NOITEM_TOOLTIP);
 		
 	}
+
+
+	public boolean isCellPhonesTitlePageDisplayed() {
+		waitForElementVisible(driver, HomePageUI.CATEGORY_PRODUCT_TITLE);
+		return isElementDisplayed(driver, HomePageUI.CATEGORY_PRODUCT_TITLE);
+	}
+
+
+	public void clickToProductNameAtMainPage(String dynamicValue) {
+		waitForElementClickable(driver, HomePageUI.DYNAMIC_PRODUCT_MAINPAGE_LINKTEXT, dynamicValue);
+		clickToElement(driver, HomePageUI.DYNAMIC_PRODUCT_MAINPAGE_LINKTEXT, dynamicValue);
+	}
+
+
+	public boolean isHTCOneMiniPageDisplayed() {
+		waitForElementClickable(driver, HomePageUI.DETAIL_PRODUCT_TITLE);
+		return isElementDisplayed(driver, HomePageUI.DETAIL_PRODUCT_TITLE);
+	}
+
+
+	public void clickAddYourReviewLinkText(String dynamicValue) {
+		waitForElementClickable(driver, HomePageUI.DYNAMIC_PRODUCT_DETAILS_LINKTEXT, dynamicValue);
+		clickToElement(driver, HomePageUI.DYNAMIC_PRODUCT_DETAILS_LINKTEXT, dynamicValue);
+	}
+
+
+	public boolean isProductReviewForTitleDisplayed() {
+		waitForElementVisible(driver, HomePageUI.TITLE_OF_ADD_REVIEW_FORM);
+		return isElementDisplayed(driver, HomePageUI.TITLE_OF_ADD_REVIEW_FORM);
+	}
+
+
+	public void inputToReviewTitleWithValue(String keyValue) {
+		waitForElementVisible(driver, HomePageUI.REVIEW_TITLE_TEXTBOX);
+		sendkeyToElement(driver, HomePageUI.REVIEW_TITLE_TEXTBOX, keyValue);
+	}
+
+
+	public void inputToReviewTextWithValue(String keyValue) {
+		waitForElementVisible(driver, HomePageUI.REVIEW_CONTENT_TEXTBOX);
+		sendkeyToElement(driver, HomePageUI.REVIEW_CONTENT_TEXTBOX, keyValue);
+	}
+
+
+	public void clickToReviewRadioButton() {
+		waitForElementClickable(driver, HomePageUI.GOOD_REVIEW_RADIO_BUTTON);
+		clickToElement(driver, HomePageUI.GOOD_REVIEW_RADIO_BUTTON);
+	}
+
+
+	public void clickToSubmitReviewButton() {
+		waitForElementClickable(driver, HomePageUI.SUBMIT_REVIEW_BUTTON);
+		clickToElement(driver, HomePageUI.SUBMIT_REVIEW_BUTTON);
+	}
+
+
+	public boolean isReviewAddSuccessfullyNoticeDisplayed() {
+		waitForElementVisible(driver, HomePageUI.SUCCESSFULLY_ADD_REVIEW_NOTICE);
+		return isElementDisplayed(driver, HomePageUI.SUCCESSFULLY_ADD_REVIEW_NOTICE);
+	}
+
+
+	public Object getProductReviewTitle(String dynamicValue) {
+		waitForElementVisible(driver, HomePageUI.RESULT_REVIEW_TITLE_FORM, dynamicValue);
+		return getTextElement(driver, HomePageUI.RESULT_REVIEW_TITLE_FORM, dynamicValue);
+	}
+
+
+	public boolean isGoodReviewRatingDisplayed() {
+		waitForElementVisible(driver, HomePageUI.RESULT_REVIEW_RATING_FORM);
+		return isElementDisplayed(driver, HomePageUI.RESULT_REVIEW_RATING_FORM);
+	}
+
+
+	public String getReviewContentValue() {
+		waitForElementVisible(driver, HomePageUI.RESULT_REVIEW_CONTENT_FORM);
+		return getTextElement(driver, HomePageUI.RESULT_REVIEW_CONTENT_FORM);
+	}
+
+
+	public String getReviewUser() {
+		waitForElementVisible(driver, HomePageUI.RESULT_REVIEW_USER_FORM);
+		return getTextElement(driver, HomePageUI.RESULT_REVIEW_USER_FORM);
+	}
 }

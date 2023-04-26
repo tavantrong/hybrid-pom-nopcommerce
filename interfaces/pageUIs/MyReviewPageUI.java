@@ -2,7 +2,7 @@ package pageUIs;
 
 public class MyReviewPageUI {
 	
-	public static final String ADD_NEW_BUTTON = "//button[text()='Add new']";
+	public static final String NO_REVIEW_NOTICE_AT_MY_REVIEW_PAGE = "//div[text()=\"You haven't written any reviews yet\"]";
 
 
 

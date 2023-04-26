@@ -238,6 +238,10 @@ public class BasePage {
 	public String getElementAttributeValue(WebDriver driver, String locator, String...values) {
 		return getWebElement(driver, getDynamicLocator(locator, values)).getAttribute("value");
 	}
+	
+	public String getElementAttribute(WebDriver driver, String locator, String attributeValue) {
+		return getWebElement(driver, locator).getAttribute(attributeValue);
+	}
 
 	public int getElementNumber(WebDriver driver, String locator) {
 		return getListWebElement(driver, locator).size();
@@ -288,6 +292,11 @@ public class BasePage {
 	public void hoverToElement(WebDriver driver, String locator) {
 		Actions action = new Actions(driver);
 		action.moveToElement(getWebElement(driver, locator)).perform();
+	}
+	
+	public void hoverToElement(WebDriver driver, String locator, String...values) {
+		Actions action = new Actions(driver);
+		action.moveToElement(getWebElement(driver, getDynamicLocator(locator, values))).perform();
 	}
 
 	public void doubleClickToElement(WebDriver driver, String locator) {
