@@ -12,7 +12,6 @@
       <class name="com.nopcommerce.user.MyAccount_04_My_Product_Preview">
         <methods>
           <include name="MyReview_01_Add_Review"/>
-          <include name="MyReview_02_Verify_Review_Display_In_My_Product_Review"/>
           <include name="afterClass"/>
           <include name="beforeClass"/>
         </methods>

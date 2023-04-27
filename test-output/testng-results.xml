@@ -1,149 +1,228 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="2" failed="0" ignored="0" total="3" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
     <line>
-      <![CDATA[[INFO ] [2023-04-25 20:51:08,547] Register 01 - Step 01: Open Register Link at Home Page
+      <![CDATA[[INFO ] [2023-04-27 13:30:07,831] Register 01 - Step 01: Open Register Link at Home Page
 <br>]]>
     </line>
     <line>
-      <![CDATA[[INFO ] [2023-04-25 20:51:10,129] Register 03 - Step 02: Input to FirstName with value: Lenna
+      <![CDATA[[INFO ] [2023-04-27 13:30:09,311] Register 03 - Step 02: Input to FirstName with value: Lakesha
 <br>]]>
     </line>
     <line>
-      <![CDATA[[INFO ] [2023-04-25 20:51:10,310] Register 03 - Step 03: Input to LastName with value: Kshlerin
+      <![CDATA[[INFO ] [2023-04-27 13:30:09,506] Register 03 - Step 03: Input to LastName with value: Borer
 <br>]]>
     </line>
     <line>
-      <![CDATA[[INFO ] [2023-04-25 20:51:10,500] Register 03 - Step 04: Input to Email Textbox with value: automationkfc7495@testing.com
+      <![CDATA[[INFO ] [2023-04-27 13:30:09,689] Register 03 - Step 04: Input to Email Textbox with value: automationkfc32695@testing.com
 <br>]]>
     </line>
     <line>
-      <![CDATA[[INFO ] [2023-04-25 20:51:10,695] Register 03 - Step 05: Input to Password Textbox with value: 123456?Aa
+      <![CDATA[[INFO ] [2023-04-27 13:30:09,885] Register 03 - Step 05: Input to Password Textbox with value: 123456?Aa
 <br>]]>
     </line>
     <line>
-      <![CDATA[[INFO ] [2023-04-25 20:51:11,044] Register 03 - Step 06: Click to Register button at Register page
+      <![CDATA[[INFO ] [2023-04-27 13:30:10,235] Register 03 - Step 06: Click to Register button at Register page
 <br>]]>
     </line>
     <line>
-      <![CDATA[[INFO ] [2023-04-25 20:51:11,886] Register 03 - Step 07: Verify Success message displayed
+      <![CDATA[[INFO ] [2023-04-27 13:30:11,000] Register 03 - Step 07: Verify Success message displayed
 <br>]]>
     </line>
     <line>
-      <![CDATA[[INFO ] [2023-04-25 20:51:11,973]  -------------------------- PASSED -------------------------- 
+      <![CDATA[[INFO ] [2023-04-27 13:30:11,086]  -------------------------- PASSED -------------------------- 
 <br>]]>
     </line>
     <line>
-      <![CDATA[[INFO ] [2023-04-25 20:51:11,975] Register 03 - Step 09: Click to Continue button at Register page and navigate to Home page
+      <![CDATA[[INFO ] [2023-04-27 13:30:11,088] Register 03 - Step 09: Click to Continue button at Register page and navigate to Home page
 <br>]]>
     </line>
     <line>
-      <![CDATA[[INFO ] [2023-04-25 20:51:12,497] OS name = windows 10
+      <![CDATA[[INFO ] [2023-04-27 13:30:11,581] OS name = windows 10
 <br>]]>
     </line>
     <line>
-      <![CDATA[[INFO ] [2023-04-25 20:51:12,498] Driver instance name = windows 10
+      <![CDATA[[INFO ] [2023-04-27 13:30:11,582] Driver instance name = windows 10
 <br>]]>
     </line>
     <line>
-      <![CDATA[[INFO ] [2023-04-25 20:51:16,102] OS name = windows 10
+      <![CDATA[[INFO ] [2023-04-27 13:30:15,094] Pre-Condition - Step 01: Open Login Link At Home Page
 <br>]]>
     </line>
     <line>
-      <![CDATA[[INFO ] [2023-04-25 20:51:16,103] Driver instance name = windows 10
+      <![CDATA[[INFO ] [2023-04-27 13:30:16,125] Pre-Condition - Step 02: Input to 'Email' textbox with value: automationkfc32695@testing.com
 <br>]]>
     </line>
     <line>
-      <![CDATA[[INFO ] [2023-04-25 20:51:16,115] no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=112.0.5615.138)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
-System info: host: 'DESKTOP-KFK5AMQ', ip: '192.168.1.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.138, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\Users\tavan\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:60917}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 86014fdfd3b73668c3dcdba2c71416b4
+      <![CDATA[[INFO ] [2023-04-27 13:30:16,318] Pre-Condition - Step 03: Input to 'Password' textbox with value: 123456?Aa
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2023-04-27 13:30:16,502] Pre-Condition - Step 04: Click to 'Login' button at Login page
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2023-04-27 13:30:17,277] Pre-Condition - Step 05: Click to 'My Account' linktext
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2023-04-27 13:30:17,757] Pre-Condition - Step 05: Click to 'My product reviews' tab
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2023-04-27 13:30:18,221] Review 01 - Step 01: Verify 'You haven't written any reviews yet' notice displayed
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2023-04-27 13:30:18,295]  -------------------------- PASSED -------------------------- 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2023-04-27 13:30:18,295] Review 01 - Step 02: Hover to 'Electronics' linktext menu
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2023-04-27 13:30:18,496] Review 01 - Step 03: Click to 'Cell phones' linktext
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2023-04-27 13:30:19,124] Review 01 - Step 04: Verify 'Cell phones' page displayed
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2023-04-27 13:30:19,201]  -------------------------- PASSED -------------------------- 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2023-04-27 13:30:19,201] Review 01 - Step 05: Click to 'HTC One Mini Blue' linktext product
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2023-04-27 13:30:20,600] Review 01 - Step 06: Verify 'HTC One Mini Blue' page displayed
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2023-04-27 13:30:20,699]  -------------------------- PASSED -------------------------- 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2023-04-27 13:30:20,699] Review 01 - Step 07: Click to 'Add your review' linktext
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2023-04-27 13:30:21,160] Review 01 - Step 08: Verify 'Product reviews for HTC One Mini Blue' page displayed
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2023-04-27 13:30:21,221]  -------------------------- PASSED -------------------------- 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2023-04-27 13:30:21,221] Review 01 - Step 09: Input to 'Review title' with value: 'HTC One Mini Blue'
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2023-04-27 13:30:21,391] Review 01 - Step 10: Input to 'Review text' with value: 'Automation Review Text'
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2023-04-27 13:30:21,568] Review 01 - Step 11: Click to review 'Good' at 4th Radio button
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2023-04-27 13:30:21,702] Review 01 - Step 12: Click to 'Submit review' button
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2023-04-27 13:30:22,182] Review 01 - Step 13: Verify 'Product review is successfully added.' notice displayed
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2023-04-27 13:30:22,260]  -------------------------- PASSED -------------------------- 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2023-04-27 13:30:22,260] Review 01 - Step 14: Verify review title is: Title No. 27920
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2023-04-27 13:30:22,337]  -------------------------- PASSED -------------------------- 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2023-04-27 13:30:22,338] Review 01 - Step 15: Verify review rating is '80%'
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2023-04-27 13:30:22,417]  -------------------------- PASSED -------------------------- 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2023-04-27 13:30:22,417] Review 01 - Step 16: Verify review content is: Content of Title No. 27920
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2023-04-27 13:30:22,495]  -------------------------- PASSED -------------------------- 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2023-04-27 13:30:22,495] Review 01 - Step 17: Verify review user is: Lakesha
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2023-04-27 13:30:22,572]  -------------------------- PASSED -------------------------- 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2023-04-27 13:30:22,575] Pre-Condition - Step 05: Click to 'My Account' linktext
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2023-04-27 13:30:23,019] Pre-Condition - Step 05: Click to 'My product reviews' tab
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2023-04-27 13:30:23,454] Review 01 - Step 01: Verify review title is 'HTC One Mini Blue'
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2023-04-27 13:30:23,454] Review 01 - Step 01: Verify review rating is '80%'
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2023-04-27 13:30:23,455] Review 01 - Step 01: Verify review content is 'Automation Review Text'
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2023-04-27 13:30:23,455] Review 01 - Step 01: Verify 'Product review for: HTC One Mini Blue' text displayed
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2023-04-27 13:30:23,455] Review 01 - Step 01: Click 'HTC One Mini Blue' linktext at 'My Product Review' page
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2023-04-27 13:30:23,455] Review 01 - Step 01: Verify 'HTC One Mini Blue' page displayed
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2023-04-27 13:30:23,456] OS name = windows 10
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2023-04-27 13:30:23,457] Driver instance name = windows 10
 <br>]]>
     </line>
   </reporter-output>
-  <suite name="NopCommerce - User" duration-ms="13562" started-at="2023-04-25T13:51:02Z" finished-at="2023-04-25T13:51:16Z">
+  <suite name="NopCommerce - User" duration-ms="20494" started-at="2023-04-27T06:30:03Z" finished-at="2023-04-27T06:30:24Z">
     <groups>
       <group name="register">
         <method signature="Common_01_Register.Register_03_With_Valid_Data()[pri:0, instance:com.nopcommerce.common.Common_01_Register@2a17b7b6]" name="Register_03_With_Valid_Data" class="com.nopcommerce.common.Common_01_Register"/>
       </group> <!-- register -->
     </groups>
-    <test name="run on CHROME" duration-ms="13562" started-at="2023-04-25T13:51:02Z" finished-at="2023-04-25T13:51:16Z">
-      <class name="com.nopcommerce.common.Common_01_Register">
-        <test-method status="PASS" signature="beforeTest(java.lang.String, java.lang.String)[pri:0, instance:com.nopcommerce.common.Common_01_Register@2a17b7b6]" name="beforeTest" is-config="true" duration-ms="7095" started-at="2023-04-25T13:51:02Z" finished-at="2023-04-25T13:51:09Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[https://demo.nopcommerce.com/]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[[INFO ] [2023-04-25 20:51:08,547] Register 01 - Step 01: Open Register Link at Home Page
-<br>]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="Register_03_With_Valid_Data()[pri:0, instance:com.nopcommerce.common.Common_01_Register@2a17b7b6]" name="Register_03_With_Valid_Data" duration-ms="2740" started-at="2023-04-25T13:51:09Z" finished-at="2023-04-25T13:51:12Z">
-          <reporter-output>
-            <line>
-              <![CDATA[[INFO ] [2023-04-25 20:51:10,129] Register 03 - Step 02: Input to FirstName with value: Lenna
-<br>]]>
-            </line>
-            <line>
-              <![CDATA[[INFO ] [2023-04-25 20:51:10,310] Register 03 - Step 03: Input to LastName with value: Kshlerin
-<br>]]>
-            </line>
-            <line>
-              <![CDATA[[INFO ] [2023-04-25 20:51:10,500] Register 03 - Step 04: Input to Email Textbox with value: automationkfc7495@testing.com
-<br>]]>
-            </line>
-            <line>
-              <![CDATA[[INFO ] [2023-04-25 20:51:10,695] Register 03 - Step 05: Input to Password Textbox with value: 123456?Aa
-<br>]]>
-            </line>
-            <line>
-              <![CDATA[[INFO ] [2023-04-25 20:51:11,044] Register 03 - Step 06: Click to Register button at Register page
-<br>]]>
-            </line>
-            <line>
-              <![CDATA[[INFO ] [2023-04-25 20:51:11,886] Register 03 - Step 07: Verify Success message displayed
-<br>]]>
-            </line>
-            <line>
-              <![CDATA[[INFO ] [2023-04-25 20:51:11,973]  -------------------------- PASSED -------------------------- 
-<br>]]>
-            </line>
-            <line>
-              <![CDATA[[INFO ] [2023-04-25 20:51:11,975] Register 03 - Step 09: Click to Continue button at Register page and navigate to Home page
-<br>]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- Register_03_With_Valid_Data -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.nopcommerce.common.Common_01_Register@2a17b7b6]" name="afterTest" is-config="true" duration-ms="747" started-at="2023-04-25T13:51:12Z" finished-at="2023-04-25T13:51:13Z">
-          <reporter-output>
-            <line>
-              <![CDATA[[INFO ] [2023-04-25 20:51:12,497] OS name = windows 10
-<br>]]>
-            </line>
-            <line>
-              <![CDATA[[INFO ] [2023-04-25 20:51:12,498] Driver instance name = windows 10
-<br>]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- afterTest -->
-      </class> <!-- com.nopcommerce.common.Common_01_Register -->
+    <test name="run on CHROME" duration-ms="20494" started-at="2023-04-27T06:30:03Z" finished-at="2023-04-27T06:30:24Z">
       <class name="com.nopcommerce.user.MyAccount_04_My_Product_Preview">
-        <test-method status="FAIL" signature="beforeClass(java.lang.String, java.lang.String)[pri:0, instance:com.nopcommerce.user.MyAccount_04_My_Product_Preview@4f063c0a]" name="beforeClass" is-config="true" duration-ms="2849" started-at="2023-04-25T13:51:13Z" finished-at="2023-04-25T13:51:16Z">
+        <test-method status="PASS" signature="beforeClass(java.lang.String, java.lang.String)[pri:0, instance:com.nopcommerce.user.MyAccount_04_My_Product_Preview@4f063c0a]" name="beforeClass" is-config="true" duration-ms="5904" started-at="2023-04-27T06:30:12Z" finished-at="2023-04-27T06:30:18Z">
           <params>
             <param index="0">
               <value>
@@ -156,215 +235,260 @@ Session ID: 86014fdfd3b73668c3dcdba2c71416b4
               </value>
             </param>
           </params>
-          <exception class="org.openqa.selenium.NoSuchWindowException">
-            <message>
-              <![CDATA[no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=112.0.5615.138)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
-System info: host: 'DESKTOP-KFK5AMQ', ip: '192.168.1.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.138, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\Users\tavan\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:60917}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 86014fdfd3b73668c3dcdba2c71416b4]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=112.0.5615.138)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
-System info: host: 'DESKTOP-KFK5AMQ', ip: '192.168.1.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.138, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\Users\tavan\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:60917}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 86014fdfd3b73668c3dcdba2c71416b4
-at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
-at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:837)
-at commons.BaseTest.getBrowserDriver(BaseTest.java:76)
-at com.nopcommerce.user.MyAccount_04_My_Product_Preview.beforeClass(MyAccount_04_My_Product_Preview.java:28)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
-at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
-at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
-at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
-at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:168)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
-at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
-at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-at java.lang.Thread.run(Thread.java:748)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
           <reporter-output>
+            <line>
+              <![CDATA[[INFO ] [2023-04-27 13:30:15,094] Pre-Condition - Step 01: Open Login Link At Home Page
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2023-04-27 13:30:16,125] Pre-Condition - Step 02: Input to 'Email' textbox with value: automationkfc32695@testing.com
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2023-04-27 13:30:16,318] Pre-Condition - Step 03: Input to 'Password' textbox with value: 123456?Aa
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2023-04-27 13:30:16,502] Pre-Condition - Step 04: Click to 'Login' button at Login page
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2023-04-27 13:30:17,277] Pre-Condition - Step 05: Click to 'My Account' linktext
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2023-04-27 13:30:17,757] Pre-Condition - Step 05: Click to 'My product reviews' tab
+<br>]]>
+            </line>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="SKIP" signature="MyReview_01_Add_Review()[pri:0, instance:com.nopcommerce.user.MyAccount_04_My_Product_Preview@4f063c0a]" name="MyReview_01_Add_Review" duration-ms="0" started-at="2023-04-25T13:51:16Z" finished-at="2023-04-25T13:51:16Z">
-          <exception class="org.openqa.selenium.NoSuchWindowException">
-            <message>
-              <![CDATA[no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=112.0.5615.138)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
-System info: host: 'DESKTOP-KFK5AMQ', ip: '192.168.1.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.138, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\Users\tavan\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:60917}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 86014fdfd3b73668c3dcdba2c71416b4]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=112.0.5615.138)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
-System info: host: 'DESKTOP-KFK5AMQ', ip: '192.168.1.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.138, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\Users\tavan\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:60917}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 86014fdfd3b73668c3dcdba2c71416b4
-at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
-at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:837)
-at commons.BaseTest.getBrowserDriver(BaseTest.java:76)
-at com.nopcommerce.user.MyAccount_04_My_Product_Preview.beforeClass(MyAccount_04_My_Product_Preview.java:28)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
-at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
-at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
-at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
-at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:168)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
-at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
-at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-at java.lang.Thread.run(Thread.java:748)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
+        <test-method status="PASS" signature="MyReview_01_Add_Review()[pri:0, instance:com.nopcommerce.user.MyAccount_04_My_Product_Preview@4f063c0a]" name="MyReview_01_Add_Review" duration-ms="4352" started-at="2023-04-27T06:30:18Z" finished-at="2023-04-27T06:30:22Z">
           <reporter-output>
+            <line>
+              <![CDATA[[INFO ] [2023-04-27 13:30:18,221] Review 01 - Step 01: Verify 'You haven't written any reviews yet' notice displayed
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2023-04-27 13:30:18,295]  -------------------------- PASSED -------------------------- 
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2023-04-27 13:30:18,295] Review 01 - Step 02: Hover to 'Electronics' linktext menu
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2023-04-27 13:30:18,496] Review 01 - Step 03: Click to 'Cell phones' linktext
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2023-04-27 13:30:19,124] Review 01 - Step 04: Verify 'Cell phones' page displayed
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2023-04-27 13:30:19,201]  -------------------------- PASSED -------------------------- 
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2023-04-27 13:30:19,201] Review 01 - Step 05: Click to 'HTC One Mini Blue' linktext product
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2023-04-27 13:30:20,600] Review 01 - Step 06: Verify 'HTC One Mini Blue' page displayed
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2023-04-27 13:30:20,699]  -------------------------- PASSED -------------------------- 
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2023-04-27 13:30:20,699] Review 01 - Step 07: Click to 'Add your review' linktext
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2023-04-27 13:30:21,160] Review 01 - Step 08: Verify 'Product reviews for HTC One Mini Blue' page displayed
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2023-04-27 13:30:21,221]  -------------------------- PASSED -------------------------- 
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2023-04-27 13:30:21,221] Review 01 - Step 09: Input to 'Review title' with value: 'HTC One Mini Blue'
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2023-04-27 13:30:21,391] Review 01 - Step 10: Input to 'Review text' with value: 'Automation Review Text'
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2023-04-27 13:30:21,568] Review 01 - Step 11: Click to review 'Good' at 4th Radio button
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2023-04-27 13:30:21,702] Review 01 - Step 12: Click to 'Submit review' button
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2023-04-27 13:30:22,182] Review 01 - Step 13: Verify 'Product review is successfully added.' notice displayed
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2023-04-27 13:30:22,260]  -------------------------- PASSED -------------------------- 
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2023-04-27 13:30:22,260] Review 01 - Step 14: Verify review title is: Title No. 27920
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2023-04-27 13:30:22,337]  -------------------------- PASSED -------------------------- 
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2023-04-27 13:30:22,338] Review 01 - Step 15: Verify review rating is '80%'
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2023-04-27 13:30:22,417]  -------------------------- PASSED -------------------------- 
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2023-04-27 13:30:22,417] Review 01 - Step 16: Verify review content is: Content of Title No. 27920
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2023-04-27 13:30:22,495]  -------------------------- PASSED -------------------------- 
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2023-04-27 13:30:22,495] Review 01 - Step 17: Verify review user is: Lakesha
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2023-04-27 13:30:22,572]  -------------------------- PASSED -------------------------- 
+<br>]]>
+            </line>
           </reporter-output>
         </test-method> <!-- MyReview_01_Add_Review -->
-        <test-method status="SKIP" signature="MyReview_02_Verify_Review_Display_In_My_Product_Review()[pri:0, instance:com.nopcommerce.user.MyAccount_04_My_Product_Preview@4f063c0a]" name="MyReview_02_Verify_Review_Display_In_My_Product_Review" duration-ms="0" started-at="2023-04-25T13:51:16Z" finished-at="2023-04-25T13:51:16Z">
-          <exception class="org.openqa.selenium.NoSuchWindowException">
-            <message>
-              <![CDATA[no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=112.0.5615.138)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
-System info: host: 'DESKTOP-KFK5AMQ', ip: '192.168.1.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.138, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\Users\tavan\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:60917}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 86014fdfd3b73668c3dcdba2c71416b4]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=112.0.5615.138)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
-System info: host: 'DESKTOP-KFK5AMQ', ip: '192.168.1.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.138, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\Users\tavan\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:60917}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 86014fdfd3b73668c3dcdba2c71416b4
-at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
-at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:837)
-at commons.BaseTest.getBrowserDriver(BaseTest.java:76)
-at com.nopcommerce.user.MyAccount_04_My_Product_Preview.beforeClass(MyAccount_04_My_Product_Preview.java:28)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
-at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
-at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
-at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
-at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:168)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
-at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
-at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-at java.lang.Thread.run(Thread.java:748)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
+        <test-method status="PASS" signature="MyReview_02_Verify_Review_Display_In_My_Product_Review()[pri:0, instance:com.nopcommerce.user.MyAccount_04_My_Product_Preview@4f063c0a]" name="MyReview_02_Verify_Review_Display_In_My_Product_Review" duration-ms="881" started-at="2023-04-27T06:30:22Z" finished-at="2023-04-27T06:30:23Z">
           <reporter-output>
+            <line>
+              <![CDATA[[INFO ] [2023-04-27 13:30:22,575] Pre-Condition - Step 05: Click to 'My Account' linktext
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2023-04-27 13:30:23,019] Pre-Condition - Step 05: Click to 'My product reviews' tab
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2023-04-27 13:30:23,454] Review 01 - Step 01: Verify review title is 'HTC One Mini Blue'
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2023-04-27 13:30:23,454] Review 01 - Step 01: Verify review rating is '80%'
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2023-04-27 13:30:23,455] Review 01 - Step 01: Verify review content is 'Automation Review Text'
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2023-04-27 13:30:23,455] Review 01 - Step 01: Verify 'Product review for: HTC One Mini Blue' text displayed
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2023-04-27 13:30:23,455] Review 01 - Step 01: Click 'HTC One Mini Blue' linktext at 'My Product Review' page
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2023-04-27 13:30:23,455] Review 01 - Step 01: Verify 'HTC One Mini Blue' page displayed
+<br>]]>
+            </line>
           </reporter-output>
         </test-method> <!-- MyReview_02_Verify_Review_Display_In_My_Product_Review -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.nopcommerce.user.MyAccount_04_My_Product_Preview@4f063c0a]" name="afterClass" is-config="true" duration-ms="103" started-at="2023-04-25T13:51:16Z" finished-at="2023-04-25T13:51:16Z">
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.nopcommerce.user.MyAccount_04_My_Product_Preview@4f063c0a]" name="afterClass" is-config="true" duration-ms="762" started-at="2023-04-27T06:30:23Z" finished-at="2023-04-27T06:30:24Z">
           <reporter-output>
             <line>
-              <![CDATA[[INFO ] [2023-04-25 20:51:16,102] OS name = windows 10
+              <![CDATA[[INFO ] [2023-04-27 13:30:23,456] OS name = windows 10
 <br>]]>
             </line>
             <line>
-              <![CDATA[[INFO ] [2023-04-25 20:51:16,103] Driver instance name = windows 10
-<br>]]>
-            </line>
-            <line>
-              <![CDATA[[INFO ] [2023-04-25 20:51:16,115] no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=112.0.5615.138)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
-System info: host: 'DESKTOP-KFK5AMQ', ip: '192.168.1.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.138, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\Users\tavan\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:60917}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 86014fdfd3b73668c3dcdba2c71416b4
+              <![CDATA[[INFO ] [2023-04-27 13:30:23,457] Driver instance name = windows 10
 <br>]]>
             </line>
           </reporter-output>
         </test-method> <!-- afterClass -->
       </class> <!-- com.nopcommerce.user.MyAccount_04_My_Product_Preview -->
+      <class name="com.nopcommerce.common.Common_01_Register">
+        <test-method status="PASS" signature="beforeTest(java.lang.String, java.lang.String)[pri:0, instance:com.nopcommerce.common.Common_01_Register@2a17b7b6]" name="beforeTest" is-config="true" duration-ms="5220" started-at="2023-04-27T06:30:03Z" finished-at="2023-04-27T06:30:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://demo.nopcommerce.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[[INFO ] [2023-04-27 13:30:07,831] Register 01 - Step 01: Open Register Link at Home Page
+<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="Register_03_With_Valid_Data()[pri:0, instance:com.nopcommerce.common.Common_01_Register@2a17b7b6]" name="Register_03_With_Valid_Data" duration-ms="2617" started-at="2023-04-27T06:30:08Z" finished-at="2023-04-27T06:30:11Z">
+          <reporter-output>
+            <line>
+              <![CDATA[[INFO ] [2023-04-27 13:30:09,311] Register 03 - Step 02: Input to FirstName with value: Lakesha
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2023-04-27 13:30:09,506] Register 03 - Step 03: Input to LastName with value: Borer
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2023-04-27 13:30:09,689] Register 03 - Step 04: Input to Email Textbox with value: automationkfc32695@testing.com
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2023-04-27 13:30:09,885] Register 03 - Step 05: Input to Password Textbox with value: 123456?Aa
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2023-04-27 13:30:10,235] Register 03 - Step 06: Click to Register button at Register page
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2023-04-27 13:30:11,000] Register 03 - Step 07: Verify Success message displayed
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2023-04-27 13:30:11,086]  -------------------------- PASSED -------------------------- 
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2023-04-27 13:30:11,088] Register 03 - Step 09: Click to Continue button at Register page and navigate to Home page
+<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Register_03_With_Valid_Data -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.nopcommerce.common.Common_01_Register@2a17b7b6]" name="afterTest" is-config="true" duration-ms="735" started-at="2023-04-27T06:30:11Z" finished-at="2023-04-27T06:30:12Z">
+          <reporter-output>
+            <line>
+              <![CDATA[[INFO ] [2023-04-27 13:30:11,581] OS name = windows 10
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2023-04-27 13:30:11,582] Driver instance name = windows 10
+<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.nopcommerce.common.Common_01_Register -->
     </test> <!-- run on CHROME -->
   </suite> <!-- NopCommerce - User -->
 </testng-results>

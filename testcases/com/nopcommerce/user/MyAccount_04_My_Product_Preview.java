@@ -21,12 +21,16 @@ public class MyAccount_04_My_Product_Preview extends BaseTest{
 	LoginPageObject loginPage;
 	CustomerInfoPageObject customerPage;
 	MyReviewPageObject reviewPage;
+	String producName, reviewTitle, reviewContent;
 
 	@Parameters({ "browser", "url" })
 	@BeforeClass
 	public void beforeClass(String browserName, String urlValue) {
 		driver = getBrowserDriver(browserName, urlValue);
 		homePage = PageGeneratorManager.getHomePage(driver);
+		
+		reviewTitle = "Title No. " + getRandomNumber();
+		reviewContent = "Content of " + reviewTitle;
 		
 		log.info("Pre-Condition - Step 01: Open Login Link At Home Page");
 		loginPage = homePage.clickToLoginLink();
@@ -74,10 +78,10 @@ public class MyAccount_04_My_Product_Preview extends BaseTest{
 		verifyTrue(homePage.isProductReviewForTitleDisplayed());
 		
 		log.info("Review 01 - Step 09: Input to 'Review title' with value: 'HTC One Mini Blue'");
-		homePage.inputToReviewTitleWithValue("HTC One Mini Blue");
+		homePage.inputToReviewTitleWithValue(reviewTitle);
 		
 		log.info("Review 01 - Step 10: Input to 'Review text' with value: 'Automation Review Text'");
-		homePage.inputToReviewTextWithValue("Automation Review Text");
+		homePage.inputToReviewTextWithValue(reviewContent);
 		
 		log.info("Review 01 - Step 11: Click to review 'Good' at 4th Radio button");
 		homePage.clickToReviewRadioButton();
@@ -88,14 +92,14 @@ public class MyAccount_04_My_Product_Preview extends BaseTest{
 		log.info("Review 01 - Step 13: Verify 'Product review is successfully added.' notice displayed");
 		verifyTrue(homePage.isReviewAddSuccessfullyNoticeDisplayed());
 		
-		log.info("Review 01 - Step 14: Verify review title is 'HTC One Mini Blue'");
-		verifyEquals(homePage.getProductReviewTitle("HTC One Mini Blue"), "HTC One Mini Blue");
+		log.info("Review 01 - Step 14: Verify review title is: " + reviewTitle);
+		verifyEquals(homePage.getProductReviewTitle(reviewTitle), reviewTitle);
 		
 		log.info("Review 01 - Step 15: Verify review rating is '80%'");
 		verifyTrue(homePage.isGoodReviewRatingDisplayed());
 		
-		log.info("Review 01 - Step 16: Verify review content is 'Automation Review Text'");
-		verifyEquals(homePage.getReviewContentValue(), "Automation Review Text");
+		log.info("Review 01 - Step 16: Verify review content is: " + reviewContent);
+		verifyEquals(homePage.getReviewContentValue(), reviewContent);
 		
 		log.info("Review 01 - Step 17: Verify review user is: " + Common_01_Register.firstName);
 		verifyEquals(homePage.getReviewUser(), Common_01_Register.firstName);

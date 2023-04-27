@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>run on CHROME</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>1/0/2</td>
+<td>Tests passed/Failed/Skipped:</td><td>3/0/0</td>
 </tr><tr>
-<td>Started on:</td><td>Tue Apr 25 20:51:02 ICT 2023</td>
+<td>Started on:</td><td>Thu Apr 27 13:30:03 ICT 2023</td>
 </tr>
-<tr><td>Total time:</td><td>13 seconds (13562 ms)</td>
+<tr><td>Total time:</td><td>20 seconds (20494 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,85 +67,6 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
-<table width='100%' border='1' class='invocation-failed'>
-<tr><td colspan='4' align='center'><b>FAILED CONFIGURATIONS</b></td></tr>
-<tr><td><b>Test method</b></td>
-<td width="30%"><b>Exception</b></td>
-<td width="10%"><b>Time (seconds)</b></td>
-<td><b>Instance</b></td>
-</tr>
-<tr>
-<td title='com.nopcommerce.user.MyAccount_04_My_Product_Preview.beforeClass()'><b>beforeClass</b><br>Test class: com.nopcommerce.user.MyAccount_04_My_Product_Preview<br>Parameters: chrome, https://demo.nopcommerce.com/</td>
-<td><div><pre>org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=112.0.5615.138)
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:53&apos;
-System info: host: &apos;DESKTOP-KFK5AMQ&apos;, ip: &apos;192.168.1.103&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_271&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.138, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\Users\tavan\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:60917}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 86014fdfd3b73668c3dcdba2c71416b4
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
-	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:837)
-	at commons.BaseTest.getBrowserDriver(BaseTest.java:76)
-	at com.nopcommerce.user.MyAccount_04_My_Product_Preview.beforeClass(MyAccount_04_My_Product_Preview.java:28)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-	at java.lang.Thread.run(Thread.java:748)
-... Removed 21 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1962846151", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1962846151'><pre>org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=112.0.5615.138)
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:53&apos;
-System info: host: &apos;DESKTOP-KFK5AMQ&apos;, ip: &apos;192.168.1.103&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_271&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.138, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\Users\tavan\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:60917}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 86014fdfd3b73668c3dcdba2c71416b4
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
-	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:837)
-	at commons.BaseTest.getBrowserDriver(BaseTest.java:76)
-	at com.nopcommerce.user.MyAccount_04_My_Product_Preview.beforeClass(MyAccount_04_My_Product_Preview.java:28)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
-	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
-	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:168)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
-	at org.testng.TestRunner.privateRun(TestRunner.java:648)
-	at org.testng.TestRunner.run(TestRunner.java:505)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-	at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
-	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
-	at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-	at java.lang.Thread.run(Thread.java:748)
-</pre></div></td>
-<td>2</td>
-<td>com.nopcommerce.user.MyAccount_04_My_Product_Preview@4f063c0a</td></tr>
-</table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
@@ -154,182 +75,122 @@ Session ID: 86014fdfd3b73668c3dcdba2c71416b4
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='com.nopcommerce.common.Common_01_Register.Register_03_With_Valid_Data()'><b>Register_03_With_Valid_Data</b><br>Test class: com.nopcommerce.common.Common_01_Register<br/>
-<a href="#Output-1609962400" onClick='toggleBox("Output-1609962400", this, "Show output", "Hide output");'>Show output</a>
+<td title='com.nopcommerce.user.MyAccount_04_My_Product_Preview.MyReview_01_Add_Review()'><b>MyReview_01_Add_Review</b><br>Test class: com.nopcommerce.user.MyAccount_04_My_Product_Preview<br/>
+<a href="#Output-13948013" onClick='toggleBox("Output-13948013", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-1609962400" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1609962400">
-[INFO ] [2023-04-25 20:51:10,129] Register 03 - Step 02: Input to FirstName with value: Lenna
+<a href="#Output-13948013" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-13948013">
+[INFO ] [2023-04-27 13:30:18,221] Review 01 - Step 01: Verify 'You haven't written any reviews yet' notice displayed
 <br><br/>
-[INFO ] [2023-04-25 20:51:10,310] Register 03 - Step 03: Input to LastName with value: Kshlerin
+[INFO ] [2023-04-27 13:30:18,295]  -------------------------- PASSED -------------------------- 
 <br><br/>
-[INFO ] [2023-04-25 20:51:10,500] Register 03 - Step 04: Input to Email Textbox with value: automationkfc7495@testing.com
+[INFO ] [2023-04-27 13:30:18,295] Review 01 - Step 02: Hover to 'Electronics' linktext menu
 <br><br/>
-[INFO ] [2023-04-25 20:51:10,695] Register 03 - Step 05: Input to Password Textbox with value: 123456?Aa
+[INFO ] [2023-04-27 13:30:18,496] Review 01 - Step 03: Click to 'Cell phones' linktext
 <br><br/>
-[INFO ] [2023-04-25 20:51:11,044] Register 03 - Step 06: Click to Register button at Register page
+[INFO ] [2023-04-27 13:30:19,124] Review 01 - Step 04: Verify 'Cell phones' page displayed
 <br><br/>
-[INFO ] [2023-04-25 20:51:11,886] Register 03 - Step 07: Verify Success message displayed
+[INFO ] [2023-04-27 13:30:19,201]  -------------------------- PASSED -------------------------- 
 <br><br/>
-[INFO ] [2023-04-25 20:51:11,973]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-04-27 13:30:19,201] Review 01 - Step 05: Click to 'HTC One Mini Blue' linktext product
 <br><br/>
-[INFO ] [2023-04-25 20:51:11,975] Register 03 - Step 09: Click to Continue button at Register page and navigate to Home page
+[INFO ] [2023-04-27 13:30:20,600] Review 01 - Step 06: Verify 'HTC One Mini Blue' page displayed
+<br><br/>
+[INFO ] [2023-04-27 13:30:20,699]  -------------------------- PASSED -------------------------- 
+<br><br/>
+[INFO ] [2023-04-27 13:30:20,699] Review 01 - Step 07: Click to 'Add your review' linktext
+<br><br/>
+[INFO ] [2023-04-27 13:30:21,160] Review 01 - Step 08: Verify 'Product reviews for HTC One Mini Blue' page displayed
+<br><br/>
+[INFO ] [2023-04-27 13:30:21,221]  -------------------------- PASSED -------------------------- 
+<br><br/>
+[INFO ] [2023-04-27 13:30:21,221] Review 01 - Step 09: Input to 'Review title' with value: 'HTC One Mini Blue'
+<br><br/>
+[INFO ] [2023-04-27 13:30:21,391] Review 01 - Step 10: Input to 'Review text' with value: 'Automation Review Text'
+<br><br/>
+[INFO ] [2023-04-27 13:30:21,568] Review 01 - Step 11: Click to review 'Good' at 4th Radio button
+<br><br/>
+[INFO ] [2023-04-27 13:30:21,702] Review 01 - Step 12: Click to 'Submit review' button
+<br><br/>
+[INFO ] [2023-04-27 13:30:22,182] Review 01 - Step 13: Verify 'Product review is successfully added.' notice displayed
+<br><br/>
+[INFO ] [2023-04-27 13:30:22,260]  -------------------------- PASSED -------------------------- 
+<br><br/>
+[INFO ] [2023-04-27 13:30:22,260] Review 01 - Step 14: Verify review title is: Title No. 27920
+<br><br/>
+[INFO ] [2023-04-27 13:30:22,337]  -------------------------- PASSED -------------------------- 
+<br><br/>
+[INFO ] [2023-04-27 13:30:22,338] Review 01 - Step 15: Verify review rating is '80%'
+<br><br/>
+[INFO ] [2023-04-27 13:30:22,417]  -------------------------- PASSED -------------------------- 
+<br><br/>
+[INFO ] [2023-04-27 13:30:22,417] Review 01 - Step 16: Verify review content is: Content of Title No. 27920
+<br><br/>
+[INFO ] [2023-04-27 13:30:22,495]  -------------------------- PASSED -------------------------- 
+<br><br/>
+[INFO ] [2023-04-27 13:30:22,495] Review 01 - Step 17: Verify review user is: Lakesha
+<br><br/>
+[INFO ] [2023-04-27 13:30:22,572]  -------------------------- PASSED -------------------------- 
+<br><br/>
+</div>
+</td>
+<td></td>
+<td>4</td>
+<td>com.nopcommerce.user.MyAccount_04_My_Product_Preview@4f063c0a</td></tr>
+<tr>
+<td title='com.nopcommerce.user.MyAccount_04_My_Product_Preview.MyReview_02_Verify_Review_Display_In_My_Product_Review()'><b>MyReview_02_Verify_Review_Display_In_My_Product_Review</b><br>Test class: com.nopcommerce.user.MyAccount_04_My_Product_Preview<br/>
+<a href="#Output-612681279" onClick='toggleBox("Output-612681279", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-612681279" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-612681279">
+[INFO ] [2023-04-27 13:30:22,575] Pre-Condition - Step 05: Click to 'My Account' linktext
+<br><br/>
+[INFO ] [2023-04-27 13:30:23,019] Pre-Condition - Step 05: Click to 'My product reviews' tab
+<br><br/>
+[INFO ] [2023-04-27 13:30:23,454] Review 01 - Step 01: Verify review title is 'HTC One Mini Blue'
+<br><br/>
+[INFO ] [2023-04-27 13:30:23,454] Review 01 - Step 01: Verify review rating is '80%'
+<br><br/>
+[INFO ] [2023-04-27 13:30:23,455] Review 01 - Step 01: Verify review content is 'Automation Review Text'
+<br><br/>
+[INFO ] [2023-04-27 13:30:23,455] Review 01 - Step 01: Verify 'Product review for: HTC One Mini Blue' text displayed
+<br><br/>
+[INFO ] [2023-04-27 13:30:23,455] Review 01 - Step 01: Click 'HTC One Mini Blue' linktext at 'My Product Review' page
+<br><br/>
+[INFO ] [2023-04-27 13:30:23,455] Review 01 - Step 01: Verify 'HTC One Mini Blue' page displayed
+<br><br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.nopcommerce.user.MyAccount_04_My_Product_Preview@4f063c0a</td></tr>
+<tr>
+<td title='com.nopcommerce.common.Common_01_Register.Register_03_With_Valid_Data()'><b>Register_03_With_Valid_Data</b><br>Test class: com.nopcommerce.common.Common_01_Register<br/>
+<a href="#Output-1082902545" onClick='toggleBox("Output-1082902545", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1082902545" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1082902545">
+[INFO ] [2023-04-27 13:30:09,311] Register 03 - Step 02: Input to FirstName with value: Lakesha
+<br><br/>
+[INFO ] [2023-04-27 13:30:09,506] Register 03 - Step 03: Input to LastName with value: Borer
+<br><br/>
+[INFO ] [2023-04-27 13:30:09,689] Register 03 - Step 04: Input to Email Textbox with value: automationkfc32695@testing.com
+<br><br/>
+[INFO ] [2023-04-27 13:30:09,885] Register 03 - Step 05: Input to Password Textbox with value: 123456?Aa
+<br><br/>
+[INFO ] [2023-04-27 13:30:10,235] Register 03 - Step 06: Click to Register button at Register page
+<br><br/>
+[INFO ] [2023-04-27 13:30:11,000] Register 03 - Step 07: Verify Success message displayed
+<br><br/>
+[INFO ] [2023-04-27 13:30:11,086]  -------------------------- PASSED -------------------------- 
+<br><br/>
+[INFO ] [2023-04-27 13:30:11,088] Register 03 - Step 09: Click to Continue button at Register page and navigate to Home page
 <br><br/>
 </div>
 </td>
 <td></td>
 <td>2</td>
 <td>com.nopcommerce.common.Common_01_Register@2a17b7b6</td></tr>
-</table><p>
-<table width='100%' border='1' class='invocation-skipped'>
-<tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
-<tr><td><b>Test method</b></td>
-<td width="30%"><b>Exception</b></td>
-<td width="10%"><b>Time (seconds)</b></td>
-<td><b>Instance</b></td>
-</tr>
-<tr>
-<td title='com.nopcommerce.user.MyAccount_04_My_Product_Preview.MyReview_01_Add_Review()'><b>MyReview_01_Add_Review</b><br>Test class: com.nopcommerce.user.MyAccount_04_My_Product_Preview</td>
-<td><div><pre>org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=112.0.5615.138)
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:53&apos;
-System info: host: &apos;DESKTOP-KFK5AMQ&apos;, ip: &apos;192.168.1.103&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_271&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.138, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\Users\tavan\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:60917}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 86014fdfd3b73668c3dcdba2c71416b4
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
-	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:837)
-	at commons.BaseTest.getBrowserDriver(BaseTest.java:76)
-	at com.nopcommerce.user.MyAccount_04_My_Product_Preview.beforeClass(MyAccount_04_My_Product_Preview.java:28)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-	at java.lang.Thread.run(Thread.java:748)
-... Removed 21 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace788568347", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace788568347'><pre>org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=112.0.5615.138)
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:53&apos;
-System info: host: &apos;DESKTOP-KFK5AMQ&apos;, ip: &apos;192.168.1.103&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_271&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.138, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\Users\tavan\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:60917}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 86014fdfd3b73668c3dcdba2c71416b4
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
-	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:837)
-	at commons.BaseTest.getBrowserDriver(BaseTest.java:76)
-	at com.nopcommerce.user.MyAccount_04_My_Product_Preview.beforeClass(MyAccount_04_My_Product_Preview.java:28)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
-	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
-	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:168)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
-	at org.testng.TestRunner.privateRun(TestRunner.java:648)
-	at org.testng.TestRunner.run(TestRunner.java:505)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-	at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
-	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
-	at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-	at java.lang.Thread.run(Thread.java:748)
-</pre></div></td>
-<td>0</td>
-<td>com.nopcommerce.user.MyAccount_04_My_Product_Preview@4f063c0a</td></tr>
-<tr>
-<td title='com.nopcommerce.user.MyAccount_04_My_Product_Preview.MyReview_02_Verify_Review_Display_In_My_Product_Review()'><b>MyReview_02_Verify_Review_Display_In_My_Product_Review</b><br>Test class: com.nopcommerce.user.MyAccount_04_My_Product_Preview</td>
-<td><div><pre>org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=112.0.5615.138)
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:53&apos;
-System info: host: &apos;DESKTOP-KFK5AMQ&apos;, ip: &apos;192.168.1.103&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_271&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.138, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\Users\tavan\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:60917}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 86014fdfd3b73668c3dcdba2c71416b4
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
-	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:837)
-	at commons.BaseTest.getBrowserDriver(BaseTest.java:76)
-	at com.nopcommerce.user.MyAccount_04_My_Product_Preview.beforeClass(MyAccount_04_My_Product_Preview.java:28)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-	at java.lang.Thread.run(Thread.java:748)
-... Removed 21 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1300511384", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1300511384'><pre>org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=112.0.5615.138)
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:53&apos;
-System info: host: &apos;DESKTOP-KFK5AMQ&apos;, ip: &apos;192.168.1.103&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_271&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.138, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\Users\tavan\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:60917}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 86014fdfd3b73668c3dcdba2c71416b4
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
-	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:837)
-	at commons.BaseTest.getBrowserDriver(BaseTest.java:76)
-	at com.nopcommerce.user.MyAccount_04_My_Product_Preview.beforeClass(MyAccount_04_My_Product_Preview.java:28)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
-	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
-	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:168)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
-	at org.testng.TestRunner.privateRun(TestRunner.java:648)
-	at org.testng.TestRunner.run(TestRunner.java:505)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-	at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
-	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
-	at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-	at java.lang.Thread.run(Thread.java:748)
-</pre></div></td>
-<td>0</td>
-<td>com.nopcommerce.user.MyAccount_04_My_Product_Preview@4f063c0a</td></tr>
 </table><p>
 </body>
 </html>
