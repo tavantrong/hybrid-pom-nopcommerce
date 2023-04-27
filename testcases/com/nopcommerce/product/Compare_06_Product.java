@@ -14,7 +14,7 @@ import pageObjects.HomePageObject;
 import pageObjects.LoginPageObject;
 import pageObjects.PageGeneratorManager;
 
-public class WishList_01_Product extends BaseTest{
+public class Compare_06_Product extends BaseTest{
 	WebDriver driver;
 	HomePageObject homePage;
 	CustomerInfoPageObject customerPage;

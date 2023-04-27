@@ -12,7 +12,7 @@ import pageObjects.HomePageObject;
 import pageObjects.LoginPageObject;
 import pageObjects.PageGeneratorManager;
 
-public class Search_01_Product extends BaseTest{
+public class Sort_02_Product extends BaseTest{
 	WebDriver driver;
 	HomePageObject homePage;
 	CustomerInfoPageObject customerPage;
@@ -30,23 +30,24 @@ public class Search_01_Product extends BaseTest{
 }
 	
 	@Test
-	public void Search_01_With_Empty_Data() {
-		
-
-	}
-	
-	@Test
-	public void Search_02_Search_With_Short_Name_Product() {
-		
+	public void Sort_01_With_Name_A_to_Z() {
 		
 	}
 	
 	@Test
-	public void Search_03_Search_With_Full_Name_Product() {
+	public void Sort_01_With_Name_Z_to_A() {
 		
 	}
 	
-
+	@Test
+	public void Sort_01_With_Price_Low_to_High() {
+		
+	}
+	
+	@Test
+	public void Sort_01_With_Price_High_to_Low() {
+		
+	}
 	
 	
 	

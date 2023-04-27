@@ -12,7 +12,7 @@ import pageObjects.HomePageObject;
 import pageObjects.LoginPageObject;
 import pageObjects.PageGeneratorManager;
 
-public class Search_01_Product extends BaseTest{
+public class Search_01_Advance_Product extends BaseTest{
 	WebDriver driver;
 	HomePageObject homePage;
 	CustomerInfoPageObject customerPage;
@@ -30,23 +30,24 @@ public class Search_01_Product extends BaseTest{
 }
 	
 	@Test
-	public void Search_01_With_Empty_Data() {
-		
-
-	}
-	
-	@Test
-	public void Search_02_Search_With_Short_Name_Product() {
-		
+	public void Advance_Search_01_With_Parent_Categories() {
 		
 	}
 	
 	@Test
-	public void Search_03_Search_With_Full_Name_Product() {
+	public void Advance_Search_02_With_Sub_Categories() {
 		
 	}
 	
-
+	@Test
+	public void Advance_Search_03_With_Incorrect_Manufacturer() {
+		
+	}
+	
+	@Test
+	public void Advance_Search_04_With_Correct_Manufacturer() {
+		
+	}
 	
 	
 	
