@@ -12,7 +12,7 @@ import pageObjects.HomePageObject;
 import pageObjects.LoginPageObject;
 import pageObjects.PageGeneratorManager;
 
-public class Admin01_Customer03_Search extends BaseTest{
+public class Admin01_Customer01_Add_Customer extends BaseTest{
 	WebDriver driver;
 	HomePageObject homePage;
 	CustomerInfoPageObject customerPage;
@@ -31,23 +31,23 @@ public class Admin01_Customer03_Search extends BaseTest{
 }
 	
 	@Test
-	public void Admin_01_Search01_Customer_With_Email() {
+	public void Admin_01_Search_With_Product_Name() {
 		
 	}
 	
 	@Test
-	public void Admin_01_Search01_Customer_With_FirstName_And_Lastname() {
+	public void Admin_02_Search_With_ProductName_ParentCategories_Unchecked() {
 		
 	}
 	
 	@Test
-	public void Admin_01_Search01_Customer_With_Company() {
+	public void Admin_03_Search_With_ProductName_ParentCategories_Checked() {
 		
 	}
 	
 	@Test
-	public void Admin_01_Search01_Customer_With_Full_Data() {
-		
+	public void Admin_04_Search_With_ProductName_Manufacturer() {
+	
 	}
 	
 	
