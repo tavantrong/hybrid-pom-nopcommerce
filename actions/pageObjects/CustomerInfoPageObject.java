@@ -121,6 +121,11 @@ public class CustomerInfoPageObject extends BasePage{
 		return PageGeneratorManager.getReviewPage(driver);
 	}
 
+	public void clickLogoutLinktext() {
+		waitForElementClickable(driver, BasePageUI.LOG_OUT_LINKTEXT);
+		clickToElement(driver, BasePageUI.LOG_OUT_LINKTEXT);
+	}
+
 
 
 	

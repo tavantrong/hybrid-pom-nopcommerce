@@ -3835,3 +3835,173 @@ Driver info: driver.version: RemoteWebDriver
 [INFO ] [2023-04-27 13:30:23,455] Review 01 - Step 01: Verify 'HTC One Mini Blue' page displayed
 [INFO ] [2023-04-27 13:30:23,456] OS name = windows 10
 [INFO ] [2023-04-27 13:30:23,457] Driver instance name = windows 10
+[INFO ] [2023-05-04 21:23:35,924] Register 01 - Step 01: Open Register Link at Home Page
+[INFO ] [2023-05-04 21:23:38,253] Register 03 - Step 02: Input to FirstName with value: Wilson
+[INFO ] [2023-05-04 21:23:38,432] Register 03 - Step 03: Input to LastName with value: Hermiston
+[INFO ] [2023-05-04 21:23:38,624] Register 03 - Step 04: Input to Email Textbox with value: automationkfc61933@testing.com
+[INFO ] [2023-05-04 21:23:38,814] Register 03 - Step 05: Input to Password Textbox with value: 123456?Aa
+[INFO ] [2023-05-04 21:23:39,164] Register 03 - Step 06: Click to Register button at Register page
+[INFO ] [2023-05-04 21:23:40,212] Register 03 - Step 07: Verify Success message displayed
+[INFO ] [2023-05-04 21:23:40,292]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-05-04 21:23:40,294] Register 03 - Step 09: Click to Continue button at Register page and navigate to Home page
+[INFO ] [2023-05-04 21:23:40,920] OS name = windows 10
+[INFO ] [2023-05-04 21:23:40,920] Driver instance name = windows 10
+[INFO ] [2023-05-04 21:23:49,187] Pre-Condition - Step 01: Open Login Link At Home Page
+[INFO ] [2023-05-04 21:23:50,602] Pre-Condition - Step 02: Input to 'Email' textbox with value: automationkfc61933@testing.com
+[INFO ] [2023-05-04 21:23:50,803] Pre-Condition - Step 03: Input to 'Password' textbox with value: 123456?Aa
+[INFO ] [2023-05-04 21:23:50,989] Pre-Condition - Step 04: Click to 'Login' button at Login page
+[INFO ] [2023-05-04 21:23:51,906] Pre-Condition - Step 05: Click to 'My Account' linktext
+[INFO ] [2023-05-04 21:23:52,460] Pre-Condition - Step 05: Click to 'My product reviews' tab
+[INFO ] [2023-05-04 21:23:53,284] Review 01 - Step 01: Verify 'You haven't written any reviews yet' notice displayed
+[INFO ] [2023-05-04 21:23:53,369]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-05-04 21:23:53,369] Review 01 - Step 02: Hover to 'Electronics' linktext menu
+[INFO ] [2023-05-04 21:23:53,569] Review 01 - Step 03: Click to 'Cell phones' linktext
+[INFO ] [2023-05-04 21:23:57,543] Review 01 - Step 04: Verify 'Cell phones' page displayed
+[INFO ] [2023-05-04 21:23:57,623]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-05-04 21:23:57,623] Review 01 - Step 05: Click to 'HTC One Mini Blue' linktext product
+[INFO ] [2023-05-04 21:23:59,622] Review 01 - Step 06: Verify 'HTC One Mini Blue' page displayed
+[INFO ] [2023-05-04 21:23:59,726]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-05-04 21:23:59,726] Review 01 - Step 07: Click to 'Add your review' linktext
+[INFO ] [2023-05-04 21:24:00,273] Review 01 - Step 08: Verify 'Product reviews for HTC One Mini Blue' page displayed
+[INFO ] [2023-05-04 21:24:00,336]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-05-04 21:24:00,336] Review 01 - Step 09: Input to 'Review title' with value: 'HTC One Mini Blue'
+[INFO ] [2023-05-04 21:24:00,506] Review 01 - Step 10: Input to 'Review text' with value: 'Automation Review Text'
+[INFO ] [2023-05-04 21:24:00,684] Review 01 - Step 11: Click to review 'Good' at 4th Radio button
+[INFO ] [2023-05-04 21:24:00,814] Review 01 - Step 12: Click to 'Submit review' button
+[INFO ] [2023-05-04 21:24:01,482] Review 01 - Step 13: Verify 'Product review is successfully added.' notice displayed
+[INFO ] [2023-05-04 21:24:01,569]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-05-04 21:24:01,569] Review 01 - Step 14: Verify review title is: Title No. 10623
+[INFO ] [2023-05-04 21:24:01,645]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-05-04 21:24:01,645] Review 01 - Step 15: Verify review rating is '80%'
+[INFO ] [2023-05-04 21:24:01,725]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-05-04 21:24:01,726] Review 01 - Step 16: Verify review content is: Content of Title No. 10623
+[INFO ] [2023-05-04 21:24:01,802]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-05-04 21:24:01,802] Review 01 - Step 17: Verify review user is: Wilson
+[INFO ] [2023-05-04 21:24:01,879]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-05-04 21:24:01,881] Pre-Condition - Step 05: Click to 'My Account' linktext
+[INFO ] [2023-05-04 21:24:02,402] Pre-Condition - Step 05: Click to 'My product reviews' tab
+[INFO ] [2023-05-04 21:24:02,915] Review 01 - Step 01: Verify review title is 'HTC One Mini Blue'
+[INFO ] [2023-05-04 21:24:02,916] Review 01 - Step 01: Verify review rating is '80%'
+[INFO ] [2023-05-04 21:24:02,916] Review 01 - Step 01: Verify review content is 'Automation Review Text'
+[INFO ] [2023-05-04 21:24:02,916] Review 01 - Step 01: Verify 'Product review for: HTC One Mini Blue' text displayed
+[INFO ] [2023-05-04 21:24:02,918] Review 01 - Step 01: Click 'HTC One Mini Blue' linktext at 'My Product Review' page
+[INFO ] [2023-05-04 21:24:02,918] Review 01 - Step 01: Verify 'HTC One Mini Blue' page displayed
+[INFO ] [2023-05-04 21:24:02,920] OS name = windows 10
+[INFO ] [2023-05-04 21:24:02,920] Driver instance name = windows 10
+[INFO ] [2023-05-04 21:48:50,031] Register 01 - Step 01: Open Register Link at Home Page
+[INFO ] [2023-05-04 21:48:51,781] Register 03 - Step 02: Input to FirstName with value: Mike
+[INFO ] [2023-05-04 21:48:51,969] Register 03 - Step 03: Input to LastName with value: Frami
+[INFO ] [2023-05-04 21:48:52,154] Register 03 - Step 04: Input to Email Textbox with value: automationkfc8192@testing.com
+[INFO ] [2023-05-04 21:48:52,349] Register 03 - Step 05: Input to Password Textbox with value: 123456?Aa
+[INFO ] [2023-05-04 21:48:52,696] Register 03 - Step 06: Click to Register button at Register page
+[INFO ] [2023-05-04 21:48:54,271] Register 03 - Step 07: Verify Success message displayed
+[INFO ] [2023-05-04 21:48:54,347]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-05-04 21:48:54,349] Register 03 - Step 09: Click to Continue button at Register page and navigate to Home page
+[INFO ] [2023-05-04 21:48:54,928] OS name = windows 10
+[INFO ] [2023-05-04 21:48:54,928] Driver instance name = windows 10
+[INFO ] [2023-05-04 21:49:00,085] Pre-Condition - Step 01: Open Login Link At Home Page
+[INFO ] [2023-05-04 21:49:00,801] Pre-Condition - Step 02: Input to 'Email' textbox with value: automationkfc8192@testing.com
+[INFO ] [2023-05-04 21:49:00,997] Pre-Condition - Step 03: Input to 'Password' textbox with value: 123456?Aa
+[INFO ] [2023-05-04 21:49:01,184] Pre-Condition - Step 04: Click to 'Login' button at Login page
+[INFO ] [2023-05-04 21:49:02,222] Pre-Condition - Step 05: Click to 'My Account' linktext
+[INFO ] [2023-05-04 21:49:02,826] Pre-Condition - Step 05: Click to 'My product reviews' tab
+[INFO ] [2023-05-04 21:49:03,938] Review 01 - Step 01: Verify 'You haven't written any reviews yet' notice displayed
+[INFO ] [2023-05-04 21:49:04,020]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-05-04 21:49:04,020] Review 01 - Step 02: Hover to 'Electronics' linktext menu
+[INFO ] [2023-05-04 21:49:04,218] Review 01 - Step 03: Click to 'Cell phones' linktext
+[INFO ] [2023-05-04 21:49:05,718] Review 01 - Step 04: Verify 'Cell phones' page displayed
+[INFO ] [2023-05-04 21:49:05,793]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-05-04 21:49:05,793] Review 01 - Step 05: Click to 'HTC One Mini Blue' linktext product
+[INFO ] [2023-05-04 21:49:08,097] Review 01 - Step 06: Verify 'HTC One Mini Blue' page displayed
+[INFO ] [2023-05-04 21:49:08,196]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-05-04 21:49:08,197] Review 01 - Step 07: Click to 'Add your review' linktext
+[INFO ] [2023-05-04 21:49:08,788] Review 01 - Step 08: Verify 'Product reviews for HTC One Mini Blue' page displayed
+[INFO ] [2023-05-04 21:49:08,848]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-05-04 21:49:08,848] Review 01 - Step 09: Input to 'Review title' with value: 'HTC One Mini Blue'
+[INFO ] [2023-05-04 21:49:09,022] Review 01 - Step 10: Input to 'Review text' with value: 'Automation Review Text'
+[INFO ] [2023-05-04 21:49:09,196] Review 01 - Step 11: Click to review 'Good' at 4th Radio button
+[INFO ] [2023-05-04 21:49:09,332] Review 01 - Step 12: Click to 'Submit review' button
+[INFO ] [2023-05-04 21:49:10,230] Review 01 - Step 13: Verify 'Product review is successfully added.' notice displayed
+[INFO ] [2023-05-04 21:49:10,318]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-05-04 21:49:10,319] Review 01 - Step 14: Verify review title is: Title No. 73745
+[INFO ] [2023-05-04 21:49:10,396]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-05-04 21:49:10,397] Review 01 - Step 15: Verify review rating is '80%'
+[INFO ] [2023-05-04 21:49:10,476]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-05-04 21:49:10,476] Review 01 - Step 16: Verify review content is: Content of Title No. 73745
+[INFO ] [2023-05-04 21:49:10,553]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-05-04 21:49:10,553] Review 01 - Step 17: Verify review user is: Mike
+[INFO ] [2023-05-04 21:49:10,630]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-05-04 21:49:10,632] Pre-Condition - Step 05: Click to 'My Account' linktext
+[INFO ] [2023-05-04 21:49:11,202] Pre-Condition - Step 05: Click to 'My product reviews' tab
+[INFO ] [2023-05-04 21:49:11,771] Review 01 - Step 01: Verify review title at 'My Product Review' is: Title No. 73745
+[INFO ] [2023-05-04 21:49:11,851]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-05-04 21:49:11,851] Review 01 - Step 01: Verify review rating is '80%'
+[INFO ] [2023-05-04 21:49:11,932]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-05-04 21:49:11,932] Review 01 - Step 01: Verify review content is: Content of Title No. 73745
+[INFO ] [2023-05-04 21:49:11,994]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-05-04 21:49:11,994] Review 01 - Step 01: Verify 'Product review for: HTC One Mini Blue' text displayed
+[INFO ] [2023-05-04 21:49:12,074]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-05-04 21:49:12,074] Review 01 - Step 01: Click 'HTC One Mini Blue' linktext at 'My Product Review' page
+[INFO ] [2023-05-04 21:49:13,229] Review 01 - Step 01: Verify 'HTC One Mini Blue' page displayed
+[INFO ] [2023-05-04 21:49:13,309]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-05-04 21:49:13,310] OS name = windows 10
+[INFO ] [2023-05-04 21:49:13,310] Driver instance name = windows 10
+[INFO ] [2023-05-04 21:58:06,289] Register 01 - Step 01: Open Register Link at Home Page
+[INFO ] [2023-05-04 21:58:08,113] Register 03 - Step 02: Input to FirstName with value: Lashaun
+[INFO ] [2023-05-04 21:58:08,304] Register 03 - Step 03: Input to LastName with value: Homenick
+[INFO ] [2023-05-04 21:58:08,493] Register 03 - Step 04: Input to Email Textbox with value: automationkfc82630@testing.com
+[INFO ] [2023-05-04 21:58:08,686] Register 03 - Step 05: Input to Password Textbox with value: 123456?Aa
+[INFO ] [2023-05-04 21:58:09,031] Register 03 - Step 06: Click to Register button at Register page
+[INFO ] [2023-05-04 21:58:10,069] Register 03 - Step 07: Verify Success message displayed
+[INFO ] [2023-05-04 21:58:10,157]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-05-04 21:58:10,159] Register 03 - Step 09: Click to Continue button at Register page and navigate to Home page
+[INFO ] [2023-05-04 21:58:10,718] OS name = windows 10
+[INFO ] [2023-05-04 21:58:10,718] Driver instance name = windows 10
+[INFO ] [2023-05-04 21:58:18,332] Pre-Condition - Step 01: Open Login Link At Home Page
+[INFO ] [2023-05-04 21:58:20,444] Pre-Condition - Step 02: Input to 'Email' textbox with value: automationkfc82630@testing.com
+[INFO ] [2023-05-04 21:58:20,646] Pre-Condition - Step 03: Input to 'Password' textbox with value: 123456?Aa
+[INFO ] [2023-05-04 21:58:20,831] Pre-Condition - Step 04: Click to 'Login' button at Login page
+[INFO ] [2023-05-04 21:58:21,858] Pre-Condition - Step 05: Click to 'My Account' linktext
+[INFO ] [2023-05-04 21:58:22,445] Pre-Condition - Step 05: Click to 'My product reviews' tab
+[INFO ] [2023-05-04 21:58:23,511] Review 01 - Step 01: Verify 'You haven't written any reviews yet' notice displayed
+[INFO ] [2023-05-04 21:58:23,590]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-05-04 21:58:23,590] Review 01 - Step 02: Hover to 'Electronics' linktext menu
+[INFO ] [2023-05-04 21:58:23,791] Review 01 - Step 03: Click to 'Cell phones' linktext
+[INFO ] [2023-05-04 21:58:26,974] Review 01 - Step 04: Verify 'Cell phones' page displayed
+[INFO ] [2023-05-04 21:58:27,060]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-05-04 21:58:27,060] Review 01 - Step 05: Click to 'HTC One Mini Blue' linktext product
+[INFO ] [2023-05-04 21:58:29,797] Review 01 - Step 06: Verify 'HTC One Mini Blue' page displayed
+[INFO ] [2023-05-04 21:58:29,896]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-05-04 21:58:29,896] Review 01 - Step 07: Click to 'Add your review' linktext
+[INFO ] [2023-05-04 21:58:30,988] Review 01 - Step 08: Verify 'Product reviews for HTC One Mini Blue' page displayed
+[INFO ] [2023-05-04 21:58:31,052]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-05-04 21:58:31,052] Review 01 - Step 09: Input to 'Review title' with value: 'HTC One Mini Blue'
+[INFO ] [2023-05-04 21:58:31,223] Review 01 - Step 10: Input to 'Review text' with value: 'Automation Review Text'
+[INFO ] [2023-05-04 21:58:31,397] Review 01 - Step 11: Click to review 'Good' at 4th Radio button
+[INFO ] [2023-05-04 21:58:31,528] Review 01 - Step 12: Click to 'Submit review' button
+[INFO ] [2023-05-04 21:58:32,221] Review 01 - Step 13: Verify 'Product review is successfully added.' notice displayed
+[INFO ] [2023-05-04 21:58:32,295]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-05-04 21:58:32,296] Review 01 - Step 14: Verify review title is: Title No. 28997
+[INFO ] [2023-05-04 21:58:32,372]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-05-04 21:58:32,372] Review 01 - Step 15: Verify review rating is '80%'
+[INFO ] [2023-05-04 21:58:32,451]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-05-04 21:58:32,452] Review 01 - Step 16: Verify review content is: Content of Title No. 28997
+[INFO ] [2023-05-04 21:58:32,529]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-05-04 21:58:32,529] Review 01 - Step 17: Verify review user is: Lashaun
+[INFO ] [2023-05-04 21:58:32,606]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-05-04 21:58:32,608] Pre-Condition - Step 05: Click to 'My Account' linktext
+[INFO ] [2023-05-04 21:58:33,163] Pre-Condition - Step 05: Click to 'My product reviews' tab
+[INFO ] [2023-05-04 21:58:33,719] Review 01 - Step 01: Verify review title at 'My Product Review' is: Title No. 28997
+[INFO ] [2023-05-04 21:58:33,796]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-05-04 21:58:33,797] Review 01 - Step 01: Verify review rating is '80%'
+[INFO ] [2023-05-04 21:58:33,876]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-05-04 21:58:33,876] Review 01 - Step 01: Verify review content is: Content of Title No. 28997
+[INFO ] [2023-05-04 21:58:33,937]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-05-04 21:58:33,938] Review 01 - Step 01: Verify 'Product review for: HTC One Mini Blue' text displayed
+[INFO ] [2023-05-04 21:58:34,002]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-05-04 21:58:34,002] Review 01 - Step 01: Click 'HTC One Mini Blue' linktext at 'My Product Review' page
+[INFO ] [2023-05-04 21:58:34,955] Review 01 - Step 01: Verify 'HTC One Mini Blue' page displayed
+[INFO ] [2023-05-04 21:58:35,045]  -------------------------- PASSED -------------------------- 
+[INFO ] [2023-05-04 21:58:35,047] Log out account
+[INFO ] [2023-05-04 21:58:36,108] OS name = windows 10
+[INFO ] [2023-05-04 21:58:36,108] Driver instance name = windows 10

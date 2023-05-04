@@ -4,6 +4,7 @@ import org.openqa.selenium.WebDriver;
 
 import commons.BasePage;
 import pageUIs.AddressPageUI;
+import pageUIs.BasePageUI;
 
 public class AddressPageObject extends BasePage{
 	WebDriver driver;
@@ -66,6 +67,11 @@ public class AddressPageObject extends BasePage{
 
 	public void clickOKAtPopup() {
 		confirmOKAtAlert(driver);
+	}
+
+	public void clickLogoutLinktext() {
+		waitForElementClickable(driver, BasePageUI.LOG_OUT_LINKTEXT);
+		clickToElement(driver, BasePageUI.LOG_OUT_LINKTEXT);
 	}
 
 

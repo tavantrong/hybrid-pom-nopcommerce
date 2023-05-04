@@ -29,6 +29,32 @@ public class MyReviewPageObject extends BasePage{
 		 return PageGeneratorManager.getHomePage(driver);
 	}
 
+	public Object getReviewTitleAtMyReviewPage() {
+		waitForElementVisible(driver, MyReviewPageUI.REVIEW_TITLE_AT_MY_REVIEW_PAGE);
+		return getTextElement(driver, MyReviewPageUI.REVIEW_TITLE_AT_MY_REVIEW_PAGE);
+	}
+
+	public boolean isGoodReviewRatingDisplayed() {
+		waitForElementVisible(driver, MyReviewPageUI.REVIEW_RATING_AT_MY_REVIEW_PAGE);
+		return isElementDisplayed(driver, MyReviewPageUI.REVIEW_RATING_AT_MY_REVIEW_PAGE);
+	}
+
+	public Object getReviewContentValue() {
+		waitForElementVisible(driver, MyReviewPageUI.REVIEW_CONTENT_AT_MY_REVIEW_PAGE);
+		return getTextElement(driver, MyReviewPageUI.REVIEW_CONTENT_AT_MY_REVIEW_PAGE);
+	}
+
+	public Object getProductNameAtMyReviewPage() {
+		waitForElementVisible(driver, MyReviewPageUI.NAME_PRODUCT_REVIEW_AT_MY_REVIEW_PAGE);
+		return getTextElement(driver, MyReviewPageUI.NAME_PRODUCT_REVIEW_AT_MY_REVIEW_PAGE);
+	}
+
+	public HomePageObject clickToProductNameAtMyReviewPage() {
+		waitForElementClickable(driver, MyReviewPageUI.NAME_PRODUCT_REVIEW_AT_MY_REVIEW_PAGE);
+		clickToElement(driver, MyReviewPageUI.NAME_PRODUCT_REVIEW_AT_MY_REVIEW_PAGE);
+		return PageGeneratorManager.getHomePage(driver);
+	}
+
 	
 	
 }

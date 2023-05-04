@@ -156,6 +156,8 @@ public class MyAccount_01_Customer_Info extends BaseTest{
 	
 	@AfterClass(alwaysRun=true)
 	public void afterClass() {
+		log.info("Log out account");
+		customerPage.clickLogoutLinktext();
 		closeBrowserAndDriver();
 	}
 }

@@ -31,6 +31,7 @@ public class MyAccount_04_My_Product_Preview extends BaseTest{
 		
 		reviewTitle = "Title No. " + getRandomNumber();
 		reviewContent = "Content of " + reviewTitle;
+		producName = "HTC One Mini Blue";
 		
 		log.info("Pre-Condition - Step 01: Open Login Link At Home Page");
 		loginPage = homePage.clickToLoginLink();
@@ -66,7 +67,7 @@ public class MyAccount_04_My_Product_Preview extends BaseTest{
 		verifyTrue(homePage.isCellPhonesTitlePageDisplayed());
 		
 		log.info("Review 01 - Step 05: Click to 'HTC One Mini Blue' linktext product");
-		homePage.clickToProductNameAtMainPage("HTC One Mini Blue");
+		homePage.clickToProductNameAtMainPage(producName);
 		
 		log.info("Review 01 - Step 06: Verify 'HTC One Mini Blue' page displayed");
 		verifyTrue(homePage.isHTCOneMiniPageDisplayed());
@@ -114,13 +115,24 @@ public class MyAccount_04_My_Product_Preview extends BaseTest{
 		log.info("Pre-Condition - Step 05: Click to 'My product reviews' tab");
 		reviewPage = customerPage.openMyReviewTabByText("My product reviews");
 		
-		log.info("Review 01 - Step 01: Verify review title is 'HTC One Mini Blue'");
-		log.info("Review 01 - Step 01: Verify review rating is '80%'");
-		log.info("Review 01 - Step 01: Verify review content is 'Automation Review Text'");
-		log.info("Review 01 - Step 01: Verify 'Product review for: HTC One Mini Blue' text displayed");
-		log.info("Review 01 - Step 01: Click 'HTC One Mini Blue' linktext at 'My Product Review' page");
-		log.info("Review 01 - Step 01: Verify 'HTC One Mini Blue' page displayed");
+		log.info("Review 01 - Step 01: Verify review title at 'My Product Review' is: " + reviewTitle);
+		verifyEquals(reviewPage.getReviewTitleAtMyReviewPage(), reviewTitle);
 		
+		log.info("Review 01 - Step 01: Verify review rating is '80%'");
+		verifyTrue(reviewPage.isGoodReviewRatingDisplayed());
+
+		log.info("Review 01 - Step 01: Verify review content is: " + reviewContent);
+		verifyEquals(reviewPage.getReviewContentValue(), reviewContent);
+
+		
+		log.info("Review 01 - Step 01: Verify 'Product review for: HTC One Mini Blue' text displayed");
+		verifyEquals(reviewPage.getProductNameAtMyReviewPage(), producName);
+		
+		log.info("Review 01 - Step 01: Click 'HTC One Mini Blue' linktext at 'My Product Review' page");
+		homePage = reviewPage.clickToProductNameAtMyReviewPage();
+		
+		log.info("Review 01 - Step 01: Verify 'HTC One Mini Blue' page displayed");
+		verifyTrue(homePage.isHTCOneMiniPageDisplayed());
 		
 	}
 	
@@ -131,6 +143,8 @@ public class MyAccount_04_My_Product_Preview extends BaseTest{
 	
 	@AfterClass(alwaysRun=true)
 	public void afterClass() {
+		log.info("Log out account");
+		homePage.clickLogoutLinktext();
 		closeBrowserAndDriver();
 	}
 }

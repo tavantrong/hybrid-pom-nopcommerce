@@ -3,6 +3,7 @@ package pageObjects;
 import org.openqa.selenium.WebDriver;
 
 import commons.BasePage;
+import pageUIs.BasePageUI;
 import pageUIs.HomePageUI;
 
 public class HomePageObject extends BasePage{
@@ -137,5 +138,11 @@ public class HomePageObject extends BasePage{
 	public String getReviewUser() {
 		waitForElementVisible(driver, HomePageUI.RESULT_REVIEW_USER_FORM);
 		return getTextElement(driver, HomePageUI.RESULT_REVIEW_USER_FORM);
+	}
+
+
+	public void clickLogoutLinktext() {
+		waitForElementClickable(driver, BasePageUI.LOG_OUT_LINKTEXT);
+		clickToElement(driver, BasePageUI.LOG_OUT_LINKTEXT);
 	}
 }

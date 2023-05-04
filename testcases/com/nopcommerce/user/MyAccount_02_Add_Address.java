@@ -176,6 +176,8 @@ public class MyAccount_02_Add_Address extends BaseTest {
 
 	@AfterClass(alwaysRun = true)
 	public void afterClass() {
+		log.info("Log out account");
+		addressPage.clickLogoutLinktext();
 		closeBrowserAndDriver();
 	}
 }

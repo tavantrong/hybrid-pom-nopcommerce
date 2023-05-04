@@ -7,6 +7,7 @@ public class BasePageUI {
 	public static final String ABOUT_US_PAGE_LINK = "//div[@class='footer']//a[text()='About us']";
 	public static final String NEWS_PAGE_LINK = "//div[@class='footer']//a[text()='News']";
 	public static final String SITE_MAP_LINK = "//div[@class='footer']//a[text()='Sitemap']";
+	public static final String LOG_OUT_LINKTEXT = "//a[@class='ico-logout']";
 	
 	
 	// Dynamic Page name

@@ -2,425 +2,251 @@
 <testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
     <line>
-      <![CDATA[[INFO ] [2023-04-27 13:30:07,831] Register 01 - Step 01: Open Register Link at Home Page
+      <![CDATA[[INFO ] [2023-05-04 21:58:06,289] Register 01 - Step 01: Open Register Link at Home Page
 <br>]]>
     </line>
     <line>
-      <![CDATA[[INFO ] [2023-04-27 13:30:09,311] Register 03 - Step 02: Input to FirstName with value: Lakesha
+      <![CDATA[[INFO ] [2023-05-04 21:58:08,113] Register 03 - Step 02: Input to FirstName with value: Lashaun
 <br>]]>
     </line>
     <line>
-      <![CDATA[[INFO ] [2023-04-27 13:30:09,506] Register 03 - Step 03: Input to LastName with value: Borer
+      <![CDATA[[INFO ] [2023-05-04 21:58:08,304] Register 03 - Step 03: Input to LastName with value: Homenick
 <br>]]>
     </line>
     <line>
-      <![CDATA[[INFO ] [2023-04-27 13:30:09,689] Register 03 - Step 04: Input to Email Textbox with value: automationkfc32695@testing.com
+      <![CDATA[[INFO ] [2023-05-04 21:58:08,493] Register 03 - Step 04: Input to Email Textbox with value: automationkfc82630@testing.com
 <br>]]>
     </line>
     <line>
-      <![CDATA[[INFO ] [2023-04-27 13:30:09,885] Register 03 - Step 05: Input to Password Textbox with value: 123456?Aa
+      <![CDATA[[INFO ] [2023-05-04 21:58:08,686] Register 03 - Step 05: Input to Password Textbox with value: 123456?Aa
 <br>]]>
     </line>
     <line>
-      <![CDATA[[INFO ] [2023-04-27 13:30:10,235] Register 03 - Step 06: Click to Register button at Register page
+      <![CDATA[[INFO ] [2023-05-04 21:58:09,031] Register 03 - Step 06: Click to Register button at Register page
 <br>]]>
     </line>
     <line>
-      <![CDATA[[INFO ] [2023-04-27 13:30:11,000] Register 03 - Step 07: Verify Success message displayed
+      <![CDATA[[INFO ] [2023-05-04 21:58:10,069] Register 03 - Step 07: Verify Success message displayed
 <br>]]>
     </line>
     <line>
-      <![CDATA[[INFO ] [2023-04-27 13:30:11,086]  -------------------------- PASSED -------------------------- 
+      <![CDATA[[INFO ] [2023-05-04 21:58:10,157]  -------------------------- PASSED -------------------------- 
 <br>]]>
     </line>
     <line>
-      <![CDATA[[INFO ] [2023-04-27 13:30:11,088] Register 03 - Step 09: Click to Continue button at Register page and navigate to Home page
+      <![CDATA[[INFO ] [2023-05-04 21:58:10,159] Register 03 - Step 09: Click to Continue button at Register page and navigate to Home page
 <br>]]>
     </line>
     <line>
-      <![CDATA[[INFO ] [2023-04-27 13:30:11,581] OS name = windows 10
+      <![CDATA[[INFO ] [2023-05-04 21:58:10,718] OS name = windows 10
 <br>]]>
     </line>
     <line>
-      <![CDATA[[INFO ] [2023-04-27 13:30:11,582] Driver instance name = windows 10
+      <![CDATA[[INFO ] [2023-05-04 21:58:10,718] Driver instance name = windows 10
 <br>]]>
     </line>
     <line>
-      <![CDATA[[INFO ] [2023-04-27 13:30:15,094] Pre-Condition - Step 01: Open Login Link At Home Page
+      <![CDATA[[INFO ] [2023-05-04 21:58:18,332] Pre-Condition - Step 01: Open Login Link At Home Page
 <br>]]>
     </line>
     <line>
-      <![CDATA[[INFO ] [2023-04-27 13:30:16,125] Pre-Condition - Step 02: Input to 'Email' textbox with value: automationkfc32695@testing.com
+      <![CDATA[[INFO ] [2023-05-04 21:58:20,444] Pre-Condition - Step 02: Input to 'Email' textbox with value: automationkfc82630@testing.com
 <br>]]>
     </line>
     <line>
-      <![CDATA[[INFO ] [2023-04-27 13:30:16,318] Pre-Condition - Step 03: Input to 'Password' textbox with value: 123456?Aa
+      <![CDATA[[INFO ] [2023-05-04 21:58:20,646] Pre-Condition - Step 03: Input to 'Password' textbox with value: 123456?Aa
 <br>]]>
     </line>
     <line>
-      <![CDATA[[INFO ] [2023-04-27 13:30:16,502] Pre-Condition - Step 04: Click to 'Login' button at Login page
+      <![CDATA[[INFO ] [2023-05-04 21:58:20,831] Pre-Condition - Step 04: Click to 'Login' button at Login page
 <br>]]>
     </line>
     <line>
-      <![CDATA[[INFO ] [2023-04-27 13:30:17,277] Pre-Condition - Step 05: Click to 'My Account' linktext
+      <![CDATA[[INFO ] [2023-05-04 21:58:21,858] Pre-Condition - Step 05: Click to 'My Account' linktext
 <br>]]>
     </line>
     <line>
-      <![CDATA[[INFO ] [2023-04-27 13:30:17,757] Pre-Condition - Step 05: Click to 'My product reviews' tab
+      <![CDATA[[INFO ] [2023-05-04 21:58:22,445] Pre-Condition - Step 05: Click to 'My product reviews' tab
 <br>]]>
     </line>
     <line>
-      <![CDATA[[INFO ] [2023-04-27 13:30:18,221] Review 01 - Step 01: Verify 'You haven't written any reviews yet' notice displayed
+      <![CDATA[[INFO ] [2023-05-04 21:58:23,511] Review 01 - Step 01: Verify 'You haven't written any reviews yet' notice displayed
 <br>]]>
     </line>
     <line>
-      <![CDATA[[INFO ] [2023-04-27 13:30:18,295]  -------------------------- PASSED -------------------------- 
+      <![CDATA[[INFO ] [2023-05-04 21:58:23,590]  -------------------------- PASSED -------------------------- 
 <br>]]>
     </line>
     <line>
-      <![CDATA[[INFO ] [2023-04-27 13:30:18,295] Review 01 - Step 02: Hover to 'Electronics' linktext menu
+      <![CDATA[[INFO ] [2023-05-04 21:58:23,590] Review 01 - Step 02: Hover to 'Electronics' linktext menu
 <br>]]>
     </line>
     <line>
-      <![CDATA[[INFO ] [2023-04-27 13:30:18,496] Review 01 - Step 03: Click to 'Cell phones' linktext
+      <![CDATA[[INFO ] [2023-05-04 21:58:23,791] Review 01 - Step 03: Click to 'Cell phones' linktext
 <br>]]>
     </line>
     <line>
-      <![CDATA[[INFO ] [2023-04-27 13:30:19,124] Review 01 - Step 04: Verify 'Cell phones' page displayed
+      <![CDATA[[INFO ] [2023-05-04 21:58:26,974] Review 01 - Step 04: Verify 'Cell phones' page displayed
 <br>]]>
     </line>
     <line>
-      <![CDATA[[INFO ] [2023-04-27 13:30:19,201]  -------------------------- PASSED -------------------------- 
+      <![CDATA[[INFO ] [2023-05-04 21:58:27,060]  -------------------------- PASSED -------------------------- 
 <br>]]>
     </line>
     <line>
-      <![CDATA[[INFO ] [2023-04-27 13:30:19,201] Review 01 - Step 05: Click to 'HTC One Mini Blue' linktext product
+      <![CDATA[[INFO ] [2023-05-04 21:58:27,060] Review 01 - Step 05: Click to 'HTC One Mini Blue' linktext product
 <br>]]>
     </line>
     <line>
-      <![CDATA[[INFO ] [2023-04-27 13:30:20,600] Review 01 - Step 06: Verify 'HTC One Mini Blue' page displayed
+      <![CDATA[[INFO ] [2023-05-04 21:58:29,797] Review 01 - Step 06: Verify 'HTC One Mini Blue' page displayed
 <br>]]>
     </line>
     <line>
-      <![CDATA[[INFO ] [2023-04-27 13:30:20,699]  -------------------------- PASSED -------------------------- 
+      <![CDATA[[INFO ] [2023-05-04 21:58:29,896]  -------------------------- PASSED -------------------------- 
 <br>]]>
     </line>
     <line>
-      <![CDATA[[INFO ] [2023-04-27 13:30:20,699] Review 01 - Step 07: Click to 'Add your review' linktext
+      <![CDATA[[INFO ] [2023-05-04 21:58:29,896] Review 01 - Step 07: Click to 'Add your review' linktext
 <br>]]>
     </line>
     <line>
-      <![CDATA[[INFO ] [2023-04-27 13:30:21,160] Review 01 - Step 08: Verify 'Product reviews for HTC One Mini Blue' page displayed
+      <![CDATA[[INFO ] [2023-05-04 21:58:30,988] Review 01 - Step 08: Verify 'Product reviews for HTC One Mini Blue' page displayed
 <br>]]>
     </line>
     <line>
-      <![CDATA[[INFO ] [2023-04-27 13:30:21,221]  -------------------------- PASSED -------------------------- 
+      <![CDATA[[INFO ] [2023-05-04 21:58:31,052]  -------------------------- PASSED -------------------------- 
 <br>]]>
     </line>
     <line>
-      <![CDATA[[INFO ] [2023-04-27 13:30:21,221] Review 01 - Step 09: Input to 'Review title' with value: 'HTC One Mini Blue'
+      <![CDATA[[INFO ] [2023-05-04 21:58:31,052] Review 01 - Step 09: Input to 'Review title' with value: 'HTC One Mini Blue'
 <br>]]>
     </line>
     <line>
-      <![CDATA[[INFO ] [2023-04-27 13:30:21,391] Review 01 - Step 10: Input to 'Review text' with value: 'Automation Review Text'
+      <![CDATA[[INFO ] [2023-05-04 21:58:31,223] Review 01 - Step 10: Input to 'Review text' with value: 'Automation Review Text'
 <br>]]>
     </line>
     <line>
-      <![CDATA[[INFO ] [2023-04-27 13:30:21,568] Review 01 - Step 11: Click to review 'Good' at 4th Radio button
+      <![CDATA[[INFO ] [2023-05-04 21:58:31,397] Review 01 - Step 11: Click to review 'Good' at 4th Radio button
 <br>]]>
     </line>
     <line>
-      <![CDATA[[INFO ] [2023-04-27 13:30:21,702] Review 01 - Step 12: Click to 'Submit review' button
+      <![CDATA[[INFO ] [2023-05-04 21:58:31,528] Review 01 - Step 12: Click to 'Submit review' button
 <br>]]>
     </line>
     <line>
-      <![CDATA[[INFO ] [2023-04-27 13:30:22,182] Review 01 - Step 13: Verify 'Product review is successfully added.' notice displayed
+      <![CDATA[[INFO ] [2023-05-04 21:58:32,221] Review 01 - Step 13: Verify 'Product review is successfully added.' notice displayed
 <br>]]>
     </line>
     <line>
-      <![CDATA[[INFO ] [2023-04-27 13:30:22,260]  -------------------------- PASSED -------------------------- 
+      <![CDATA[[INFO ] [2023-05-04 21:58:32,295]  -------------------------- PASSED -------------------------- 
 <br>]]>
     </line>
     <line>
-      <![CDATA[[INFO ] [2023-04-27 13:30:22,260] Review 01 - Step 14: Verify review title is: Title No. 27920
+      <![CDATA[[INFO ] [2023-05-04 21:58:32,296] Review 01 - Step 14: Verify review title is: Title No. 28997
 <br>]]>
     </line>
     <line>
-      <![CDATA[[INFO ] [2023-04-27 13:30:22,337]  -------------------------- PASSED -------------------------- 
+      <![CDATA[[INFO ] [2023-05-04 21:58:32,372]  -------------------------- PASSED -------------------------- 
 <br>]]>
     </line>
     <line>
-      <![CDATA[[INFO ] [2023-04-27 13:30:22,338] Review 01 - Step 15: Verify review rating is '80%'
+      <![CDATA[[INFO ] [2023-05-04 21:58:32,372] Review 01 - Step 15: Verify review rating is '80%'
 <br>]]>
     </line>
     <line>
-      <![CDATA[[INFO ] [2023-04-27 13:30:22,417]  -------------------------- PASSED -------------------------- 
+      <![CDATA[[INFO ] [2023-05-04 21:58:32,451]  -------------------------- PASSED -------------------------- 
 <br>]]>
     </line>
     <line>
-      <![CDATA[[INFO ] [2023-04-27 13:30:22,417] Review 01 - Step 16: Verify review content is: Content of Title No. 27920
+      <![CDATA[[INFO ] [2023-05-04 21:58:32,452] Review 01 - Step 16: Verify review content is: Content of Title No. 28997
 <br>]]>
     </line>
     <line>
-      <![CDATA[[INFO ] [2023-04-27 13:30:22,495]  -------------------------- PASSED -------------------------- 
+      <![CDATA[[INFO ] [2023-05-04 21:58:32,529]  -------------------------- PASSED -------------------------- 
 <br>]]>
     </line>
     <line>
-      <![CDATA[[INFO ] [2023-04-27 13:30:22,495] Review 01 - Step 17: Verify review user is: Lakesha
+      <![CDATA[[INFO ] [2023-05-04 21:58:32,529] Review 01 - Step 17: Verify review user is: Lashaun
 <br>]]>
     </line>
     <line>
-      <![CDATA[[INFO ] [2023-04-27 13:30:22,572]  -------------------------- PASSED -------------------------- 
+      <![CDATA[[INFO ] [2023-05-04 21:58:32,606]  -------------------------- PASSED -------------------------- 
 <br>]]>
     </line>
     <line>
-      <![CDATA[[INFO ] [2023-04-27 13:30:22,575] Pre-Condition - Step 05: Click to 'My Account' linktext
+      <![CDATA[[INFO ] [2023-05-04 21:58:32,608] Pre-Condition - Step 05: Click to 'My Account' linktext
 <br>]]>
     </line>
     <line>
-      <![CDATA[[INFO ] [2023-04-27 13:30:23,019] Pre-Condition - Step 05: Click to 'My product reviews' tab
+      <![CDATA[[INFO ] [2023-05-04 21:58:33,163] Pre-Condition - Step 05: Click to 'My product reviews' tab
 <br>]]>
     </line>
     <line>
-      <![CDATA[[INFO ] [2023-04-27 13:30:23,454] Review 01 - Step 01: Verify review title is 'HTC One Mini Blue'
+      <![CDATA[[INFO ] [2023-05-04 21:58:33,719] Review 01 - Step 01: Verify review title at 'My Product Review' is: Title No. 28997
 <br>]]>
     </line>
     <line>
-      <![CDATA[[INFO ] [2023-04-27 13:30:23,454] Review 01 - Step 01: Verify review rating is '80%'
+      <![CDATA[[INFO ] [2023-05-04 21:58:33,796]  -------------------------- PASSED -------------------------- 
 <br>]]>
     </line>
     <line>
-      <![CDATA[[INFO ] [2023-04-27 13:30:23,455] Review 01 - Step 01: Verify review content is 'Automation Review Text'
+      <![CDATA[[INFO ] [2023-05-04 21:58:33,797] Review 01 - Step 01: Verify review rating is '80%'
 <br>]]>
     </line>
     <line>
-      <![CDATA[[INFO ] [2023-04-27 13:30:23,455] Review 01 - Step 01: Verify 'Product review for: HTC One Mini Blue' text displayed
+      <![CDATA[[INFO ] [2023-05-04 21:58:33,876]  -------------------------- PASSED -------------------------- 
 <br>]]>
     </line>
     <line>
-      <![CDATA[[INFO ] [2023-04-27 13:30:23,455] Review 01 - Step 01: Click 'HTC One Mini Blue' linktext at 'My Product Review' page
+      <![CDATA[[INFO ] [2023-05-04 21:58:33,876] Review 01 - Step 01: Verify review content is: Content of Title No. 28997
 <br>]]>
     </line>
     <line>
-      <![CDATA[[INFO ] [2023-04-27 13:30:23,455] Review 01 - Step 01: Verify 'HTC One Mini Blue' page displayed
+      <![CDATA[[INFO ] [2023-05-04 21:58:33,937]  -------------------------- PASSED -------------------------- 
 <br>]]>
     </line>
     <line>
-      <![CDATA[[INFO ] [2023-04-27 13:30:23,456] OS name = windows 10
+      <![CDATA[[INFO ] [2023-05-04 21:58:33,938] Review 01 - Step 01: Verify 'Product review for: HTC One Mini Blue' text displayed
 <br>]]>
     </line>
     <line>
-      <![CDATA[[INFO ] [2023-04-27 13:30:23,457] Driver instance name = windows 10
+      <![CDATA[[INFO ] [2023-05-04 21:58:34,002]  -------------------------- PASSED -------------------------- 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2023-05-04 21:58:34,002] Review 01 - Step 01: Click 'HTC One Mini Blue' linktext at 'My Product Review' page
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2023-05-04 21:58:34,955] Review 01 - Step 01: Verify 'HTC One Mini Blue' page displayed
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2023-05-04 21:58:35,045]  -------------------------- PASSED -------------------------- 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2023-05-04 21:58:35,047] Log out account
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2023-05-04 21:58:36,108] OS name = windows 10
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2023-05-04 21:58:36,108] Driver instance name = windows 10
 <br>]]>
     </line>
   </reporter-output>
-  <suite name="NopCommerce - User" duration-ms="20494" started-at="2023-04-27T06:30:03Z" finished-at="2023-04-27T06:30:24Z">
+  <suite name="NopCommerce - User" duration-ms="36486" started-at="2023-05-04T14:58:00Z" finished-at="2023-05-04T14:58:36Z">
     <groups>
       <group name="register">
         <method signature="Common_01_Register.Register_03_With_Valid_Data()[pri:0, instance:com.nopcommerce.common.Common_01_Register@2a17b7b6]" name="Register_03_With_Valid_Data" class="com.nopcommerce.common.Common_01_Register"/>
       </group> <!-- register -->
     </groups>
-    <test name="run on CHROME" duration-ms="20494" started-at="2023-04-27T06:30:03Z" finished-at="2023-04-27T06:30:24Z">
-      <class name="com.nopcommerce.user.MyAccount_04_My_Product_Preview">
-        <test-method status="PASS" signature="beforeClass(java.lang.String, java.lang.String)[pri:0, instance:com.nopcommerce.user.MyAccount_04_My_Product_Preview@4f063c0a]" name="beforeClass" is-config="true" duration-ms="5904" started-at="2023-04-27T06:30:12Z" finished-at="2023-04-27T06:30:18Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[https://demo.nopcommerce.com/]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[[INFO ] [2023-04-27 13:30:15,094] Pre-Condition - Step 01: Open Login Link At Home Page
-<br>]]>
-            </line>
-            <line>
-              <![CDATA[[INFO ] [2023-04-27 13:30:16,125] Pre-Condition - Step 02: Input to 'Email' textbox with value: automationkfc32695@testing.com
-<br>]]>
-            </line>
-            <line>
-              <![CDATA[[INFO ] [2023-04-27 13:30:16,318] Pre-Condition - Step 03: Input to 'Password' textbox with value: 123456?Aa
-<br>]]>
-            </line>
-            <line>
-              <![CDATA[[INFO ] [2023-04-27 13:30:16,502] Pre-Condition - Step 04: Click to 'Login' button at Login page
-<br>]]>
-            </line>
-            <line>
-              <![CDATA[[INFO ] [2023-04-27 13:30:17,277] Pre-Condition - Step 05: Click to 'My Account' linktext
-<br>]]>
-            </line>
-            <line>
-              <![CDATA[[INFO ] [2023-04-27 13:30:17,757] Pre-Condition - Step 05: Click to 'My product reviews' tab
-<br>]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="MyReview_01_Add_Review()[pri:0, instance:com.nopcommerce.user.MyAccount_04_My_Product_Preview@4f063c0a]" name="MyReview_01_Add_Review" duration-ms="4352" started-at="2023-04-27T06:30:18Z" finished-at="2023-04-27T06:30:22Z">
-          <reporter-output>
-            <line>
-              <![CDATA[[INFO ] [2023-04-27 13:30:18,221] Review 01 - Step 01: Verify 'You haven't written any reviews yet' notice displayed
-<br>]]>
-            </line>
-            <line>
-              <![CDATA[[INFO ] [2023-04-27 13:30:18,295]  -------------------------- PASSED -------------------------- 
-<br>]]>
-            </line>
-            <line>
-              <![CDATA[[INFO ] [2023-04-27 13:30:18,295] Review 01 - Step 02: Hover to 'Electronics' linktext menu
-<br>]]>
-            </line>
-            <line>
-              <![CDATA[[INFO ] [2023-04-27 13:30:18,496] Review 01 - Step 03: Click to 'Cell phones' linktext
-<br>]]>
-            </line>
-            <line>
-              <![CDATA[[INFO ] [2023-04-27 13:30:19,124] Review 01 - Step 04: Verify 'Cell phones' page displayed
-<br>]]>
-            </line>
-            <line>
-              <![CDATA[[INFO ] [2023-04-27 13:30:19,201]  -------------------------- PASSED -------------------------- 
-<br>]]>
-            </line>
-            <line>
-              <![CDATA[[INFO ] [2023-04-27 13:30:19,201] Review 01 - Step 05: Click to 'HTC One Mini Blue' linktext product
-<br>]]>
-            </line>
-            <line>
-              <![CDATA[[INFO ] [2023-04-27 13:30:20,600] Review 01 - Step 06: Verify 'HTC One Mini Blue' page displayed
-<br>]]>
-            </line>
-            <line>
-              <![CDATA[[INFO ] [2023-04-27 13:30:20,699]  -------------------------- PASSED -------------------------- 
-<br>]]>
-            </line>
-            <line>
-              <![CDATA[[INFO ] [2023-04-27 13:30:20,699] Review 01 - Step 07: Click to 'Add your review' linktext
-<br>]]>
-            </line>
-            <line>
-              <![CDATA[[INFO ] [2023-04-27 13:30:21,160] Review 01 - Step 08: Verify 'Product reviews for HTC One Mini Blue' page displayed
-<br>]]>
-            </line>
-            <line>
-              <![CDATA[[INFO ] [2023-04-27 13:30:21,221]  -------------------------- PASSED -------------------------- 
-<br>]]>
-            </line>
-            <line>
-              <![CDATA[[INFO ] [2023-04-27 13:30:21,221] Review 01 - Step 09: Input to 'Review title' with value: 'HTC One Mini Blue'
-<br>]]>
-            </line>
-            <line>
-              <![CDATA[[INFO ] [2023-04-27 13:30:21,391] Review 01 - Step 10: Input to 'Review text' with value: 'Automation Review Text'
-<br>]]>
-            </line>
-            <line>
-              <![CDATA[[INFO ] [2023-04-27 13:30:21,568] Review 01 - Step 11: Click to review 'Good' at 4th Radio button
-<br>]]>
-            </line>
-            <line>
-              <![CDATA[[INFO ] [2023-04-27 13:30:21,702] Review 01 - Step 12: Click to 'Submit review' button
-<br>]]>
-            </line>
-            <line>
-              <![CDATA[[INFO ] [2023-04-27 13:30:22,182] Review 01 - Step 13: Verify 'Product review is successfully added.' notice displayed
-<br>]]>
-            </line>
-            <line>
-              <![CDATA[[INFO ] [2023-04-27 13:30:22,260]  -------------------------- PASSED -------------------------- 
-<br>]]>
-            </line>
-            <line>
-              <![CDATA[[INFO ] [2023-04-27 13:30:22,260] Review 01 - Step 14: Verify review title is: Title No. 27920
-<br>]]>
-            </line>
-            <line>
-              <![CDATA[[INFO ] [2023-04-27 13:30:22,337]  -------------------------- PASSED -------------------------- 
-<br>]]>
-            </line>
-            <line>
-              <![CDATA[[INFO ] [2023-04-27 13:30:22,338] Review 01 - Step 15: Verify review rating is '80%'
-<br>]]>
-            </line>
-            <line>
-              <![CDATA[[INFO ] [2023-04-27 13:30:22,417]  -------------------------- PASSED -------------------------- 
-<br>]]>
-            </line>
-            <line>
-              <![CDATA[[INFO ] [2023-04-27 13:30:22,417] Review 01 - Step 16: Verify review content is: Content of Title No. 27920
-<br>]]>
-            </line>
-            <line>
-              <![CDATA[[INFO ] [2023-04-27 13:30:22,495]  -------------------------- PASSED -------------------------- 
-<br>]]>
-            </line>
-            <line>
-              <![CDATA[[INFO ] [2023-04-27 13:30:22,495] Review 01 - Step 17: Verify review user is: Lakesha
-<br>]]>
-            </line>
-            <line>
-              <![CDATA[[INFO ] [2023-04-27 13:30:22,572]  -------------------------- PASSED -------------------------- 
-<br>]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- MyReview_01_Add_Review -->
-        <test-method status="PASS" signature="MyReview_02_Verify_Review_Display_In_My_Product_Review()[pri:0, instance:com.nopcommerce.user.MyAccount_04_My_Product_Preview@4f063c0a]" name="MyReview_02_Verify_Review_Display_In_My_Product_Review" duration-ms="881" started-at="2023-04-27T06:30:22Z" finished-at="2023-04-27T06:30:23Z">
-          <reporter-output>
-            <line>
-              <![CDATA[[INFO ] [2023-04-27 13:30:22,575] Pre-Condition - Step 05: Click to 'My Account' linktext
-<br>]]>
-            </line>
-            <line>
-              <![CDATA[[INFO ] [2023-04-27 13:30:23,019] Pre-Condition - Step 05: Click to 'My product reviews' tab
-<br>]]>
-            </line>
-            <line>
-              <![CDATA[[INFO ] [2023-04-27 13:30:23,454] Review 01 - Step 01: Verify review title is 'HTC One Mini Blue'
-<br>]]>
-            </line>
-            <line>
-              <![CDATA[[INFO ] [2023-04-27 13:30:23,454] Review 01 - Step 01: Verify review rating is '80%'
-<br>]]>
-            </line>
-            <line>
-              <![CDATA[[INFO ] [2023-04-27 13:30:23,455] Review 01 - Step 01: Verify review content is 'Automation Review Text'
-<br>]]>
-            </line>
-            <line>
-              <![CDATA[[INFO ] [2023-04-27 13:30:23,455] Review 01 - Step 01: Verify 'Product review for: HTC One Mini Blue' text displayed
-<br>]]>
-            </line>
-            <line>
-              <![CDATA[[INFO ] [2023-04-27 13:30:23,455] Review 01 - Step 01: Click 'HTC One Mini Blue' linktext at 'My Product Review' page
-<br>]]>
-            </line>
-            <line>
-              <![CDATA[[INFO ] [2023-04-27 13:30:23,455] Review 01 - Step 01: Verify 'HTC One Mini Blue' page displayed
-<br>]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- MyReview_02_Verify_Review_Display_In_My_Product_Review -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.nopcommerce.user.MyAccount_04_My_Product_Preview@4f063c0a]" name="afterClass" is-config="true" duration-ms="762" started-at="2023-04-27T06:30:23Z" finished-at="2023-04-27T06:30:24Z">
-          <reporter-output>
-            <line>
-              <![CDATA[[INFO ] [2023-04-27 13:30:23,456] OS name = windows 10
-<br>]]>
-            </line>
-            <line>
-              <![CDATA[[INFO ] [2023-04-27 13:30:23,457] Driver instance name = windows 10
-<br>]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- afterClass -->
-      </class> <!-- com.nopcommerce.user.MyAccount_04_My_Product_Preview -->
+    <test name="run on CHROME" duration-ms="36486" started-at="2023-05-04T14:58:00Z" finished-at="2023-05-04T14:58:36Z">
       <class name="com.nopcommerce.common.Common_01_Register">
-        <test-method status="PASS" signature="beforeTest(java.lang.String, java.lang.String)[pri:0, instance:com.nopcommerce.common.Common_01_Register@2a17b7b6]" name="beforeTest" is-config="true" duration-ms="5220" started-at="2023-04-27T06:30:03Z" finished-at="2023-04-27T06:30:08Z">
+        <test-method status="PASS" signature="beforeTest(java.lang.String, java.lang.String)[pri:0, instance:com.nopcommerce.common.Common_01_Register@2a17b7b6]" name="beforeTest" is-config="true" duration-ms="7293" started-at="2023-05-04T14:58:00Z" finished-at="2023-05-04T14:58:07Z">
           <params>
             <param index="0">
               <value>
@@ -435,60 +261,282 @@
           </params>
           <reporter-output>
             <line>
-              <![CDATA[[INFO ] [2023-04-27 13:30:07,831] Register 01 - Step 01: Open Register Link at Home Page
+              <![CDATA[[INFO ] [2023-05-04 21:58:06,289] Register 01 - Step 01: Open Register Link at Home Page
 <br>]]>
             </line>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="Register_03_With_Valid_Data()[pri:0, instance:com.nopcommerce.common.Common_01_Register@2a17b7b6]" name="Register_03_With_Valid_Data" duration-ms="2617" started-at="2023-04-27T06:30:08Z" finished-at="2023-04-27T06:30:11Z">
+        <test-method status="PASS" signature="Register_03_With_Valid_Data()[pri:0, instance:com.nopcommerce.common.Common_01_Register@2a17b7b6]" name="Register_03_With_Valid_Data" duration-ms="3041" started-at="2023-05-04T14:58:07Z" finished-at="2023-05-04T14:58:10Z">
           <reporter-output>
             <line>
-              <![CDATA[[INFO ] [2023-04-27 13:30:09,311] Register 03 - Step 02: Input to FirstName with value: Lakesha
+              <![CDATA[[INFO ] [2023-05-04 21:58:08,113] Register 03 - Step 02: Input to FirstName with value: Lashaun
 <br>]]>
             </line>
             <line>
-              <![CDATA[[INFO ] [2023-04-27 13:30:09,506] Register 03 - Step 03: Input to LastName with value: Borer
+              <![CDATA[[INFO ] [2023-05-04 21:58:08,304] Register 03 - Step 03: Input to LastName with value: Homenick
 <br>]]>
             </line>
             <line>
-              <![CDATA[[INFO ] [2023-04-27 13:30:09,689] Register 03 - Step 04: Input to Email Textbox with value: automationkfc32695@testing.com
+              <![CDATA[[INFO ] [2023-05-04 21:58:08,493] Register 03 - Step 04: Input to Email Textbox with value: automationkfc82630@testing.com
 <br>]]>
             </line>
             <line>
-              <![CDATA[[INFO ] [2023-04-27 13:30:09,885] Register 03 - Step 05: Input to Password Textbox with value: 123456?Aa
+              <![CDATA[[INFO ] [2023-05-04 21:58:08,686] Register 03 - Step 05: Input to Password Textbox with value: 123456?Aa
 <br>]]>
             </line>
             <line>
-              <![CDATA[[INFO ] [2023-04-27 13:30:10,235] Register 03 - Step 06: Click to Register button at Register page
+              <![CDATA[[INFO ] [2023-05-04 21:58:09,031] Register 03 - Step 06: Click to Register button at Register page
 <br>]]>
             </line>
             <line>
-              <![CDATA[[INFO ] [2023-04-27 13:30:11,000] Register 03 - Step 07: Verify Success message displayed
+              <![CDATA[[INFO ] [2023-05-04 21:58:10,069] Register 03 - Step 07: Verify Success message displayed
 <br>]]>
             </line>
             <line>
-              <![CDATA[[INFO ] [2023-04-27 13:30:11,086]  -------------------------- PASSED -------------------------- 
+              <![CDATA[[INFO ] [2023-05-04 21:58:10,157]  -------------------------- PASSED -------------------------- 
 <br>]]>
             </line>
             <line>
-              <![CDATA[[INFO ] [2023-04-27 13:30:11,088] Register 03 - Step 09: Click to Continue button at Register page and navigate to Home page
+              <![CDATA[[INFO ] [2023-05-04 21:58:10,159] Register 03 - Step 09: Click to Continue button at Register page and navigate to Home page
 <br>]]>
             </line>
           </reporter-output>
         </test-method> <!-- Register_03_With_Valid_Data -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.nopcommerce.common.Common_01_Register@2a17b7b6]" name="afterTest" is-config="true" duration-ms="735" started-at="2023-04-27T06:30:11Z" finished-at="2023-04-27T06:30:12Z">
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.nopcommerce.common.Common_01_Register@2a17b7b6]" name="afterTest" is-config="true" duration-ms="740" started-at="2023-05-04T14:58:10Z" finished-at="2023-05-04T14:58:11Z">
           <reporter-output>
             <line>
-              <![CDATA[[INFO ] [2023-04-27 13:30:11,581] OS name = windows 10
+              <![CDATA[[INFO ] [2023-05-04 21:58:10,718] OS name = windows 10
 <br>]]>
             </line>
             <line>
-              <![CDATA[[INFO ] [2023-04-27 13:30:11,582] Driver instance name = windows 10
+              <![CDATA[[INFO ] [2023-05-04 21:58:10,718] Driver instance name = windows 10
 <br>]]>
             </line>
           </reporter-output>
         </test-method> <!-- afterTest -->
       </class> <!-- com.nopcommerce.common.Common_01_Register -->
+      <class name="com.nopcommerce.user.MyAccount_04_My_Product_Preview">
+        <test-method status="PASS" signature="beforeClass(java.lang.String, java.lang.String)[pri:0, instance:com.nopcommerce.user.MyAccount_04_My_Product_Preview@4f063c0a]" name="beforeClass" is-config="true" duration-ms="12051" started-at="2023-05-04T14:58:11Z" finished-at="2023-05-04T14:58:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://demo.nopcommerce.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[[INFO ] [2023-05-04 21:58:18,332] Pre-Condition - Step 01: Open Login Link At Home Page
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2023-05-04 21:58:20,444] Pre-Condition - Step 02: Input to 'Email' textbox with value: automationkfc82630@testing.com
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2023-05-04 21:58:20,646] Pre-Condition - Step 03: Input to 'Password' textbox with value: 123456?Aa
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2023-05-04 21:58:20,831] Pre-Condition - Step 04: Click to 'Login' button at Login page
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2023-05-04 21:58:21,858] Pre-Condition - Step 05: Click to 'My Account' linktext
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2023-05-04 21:58:22,445] Pre-Condition - Step 05: Click to 'My product reviews' tab
+<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="MyReview_01_Add_Review()[pri:0, instance:com.nopcommerce.user.MyAccount_04_My_Product_Preview@4f063c0a]" name="MyReview_01_Add_Review" duration-ms="9096" started-at="2023-05-04T14:58:23Z" finished-at="2023-05-04T14:58:32Z">
+          <reporter-output>
+            <line>
+              <![CDATA[[INFO ] [2023-05-04 21:58:23,511] Review 01 - Step 01: Verify 'You haven't written any reviews yet' notice displayed
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2023-05-04 21:58:23,590]  -------------------------- PASSED -------------------------- 
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2023-05-04 21:58:23,590] Review 01 - Step 02: Hover to 'Electronics' linktext menu
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2023-05-04 21:58:23,791] Review 01 - Step 03: Click to 'Cell phones' linktext
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2023-05-04 21:58:26,974] Review 01 - Step 04: Verify 'Cell phones' page displayed
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2023-05-04 21:58:27,060]  -------------------------- PASSED -------------------------- 
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2023-05-04 21:58:27,060] Review 01 - Step 05: Click to 'HTC One Mini Blue' linktext product
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2023-05-04 21:58:29,797] Review 01 - Step 06: Verify 'HTC One Mini Blue' page displayed
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2023-05-04 21:58:29,896]  -------------------------- PASSED -------------------------- 
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2023-05-04 21:58:29,896] Review 01 - Step 07: Click to 'Add your review' linktext
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2023-05-04 21:58:30,988] Review 01 - Step 08: Verify 'Product reviews for HTC One Mini Blue' page displayed
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2023-05-04 21:58:31,052]  -------------------------- PASSED -------------------------- 
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2023-05-04 21:58:31,052] Review 01 - Step 09: Input to 'Review title' with value: 'HTC One Mini Blue'
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2023-05-04 21:58:31,223] Review 01 - Step 10: Input to 'Review text' with value: 'Automation Review Text'
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2023-05-04 21:58:31,397] Review 01 - Step 11: Click to review 'Good' at 4th Radio button
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2023-05-04 21:58:31,528] Review 01 - Step 12: Click to 'Submit review' button
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2023-05-04 21:58:32,221] Review 01 - Step 13: Verify 'Product review is successfully added.' notice displayed
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2023-05-04 21:58:32,295]  -------------------------- PASSED -------------------------- 
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2023-05-04 21:58:32,296] Review 01 - Step 14: Verify review title is: Title No. 28997
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2023-05-04 21:58:32,372]  -------------------------- PASSED -------------------------- 
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2023-05-04 21:58:32,372] Review 01 - Step 15: Verify review rating is '80%'
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2023-05-04 21:58:32,451]  -------------------------- PASSED -------------------------- 
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2023-05-04 21:58:32,452] Review 01 - Step 16: Verify review content is: Content of Title No. 28997
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2023-05-04 21:58:32,529]  -------------------------- PASSED -------------------------- 
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2023-05-04 21:58:32,529] Review 01 - Step 17: Verify review user is: Lashaun
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2023-05-04 21:58:32,606]  -------------------------- PASSED -------------------------- 
+<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- MyReview_01_Add_Review -->
+        <test-method status="PASS" signature="MyReview_02_Verify_Review_Display_In_My_Product_Review()[pri:0, instance:com.nopcommerce.user.MyAccount_04_My_Product_Preview@4f063c0a]" name="MyReview_02_Verify_Review_Display_In_My_Product_Review" duration-ms="2439" started-at="2023-05-04T14:58:32Z" finished-at="2023-05-04T14:58:35Z">
+          <reporter-output>
+            <line>
+              <![CDATA[[INFO ] [2023-05-04 21:58:32,608] Pre-Condition - Step 05: Click to 'My Account' linktext
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2023-05-04 21:58:33,163] Pre-Condition - Step 05: Click to 'My product reviews' tab
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2023-05-04 21:58:33,719] Review 01 - Step 01: Verify review title at 'My Product Review' is: Title No. 28997
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2023-05-04 21:58:33,796]  -------------------------- PASSED -------------------------- 
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2023-05-04 21:58:33,797] Review 01 - Step 01: Verify review rating is '80%'
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2023-05-04 21:58:33,876]  -------------------------- PASSED -------------------------- 
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2023-05-04 21:58:33,876] Review 01 - Step 01: Verify review content is: Content of Title No. 28997
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2023-05-04 21:58:33,937]  -------------------------- PASSED -------------------------- 
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2023-05-04 21:58:33,938] Review 01 - Step 01: Verify 'Product review for: HTC One Mini Blue' text displayed
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2023-05-04 21:58:34,002]  -------------------------- PASSED -------------------------- 
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2023-05-04 21:58:34,002] Review 01 - Step 01: Click 'HTC One Mini Blue' linktext at 'My Product Review' page
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2023-05-04 21:58:34,955] Review 01 - Step 01: Verify 'HTC One Mini Blue' page displayed
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2023-05-04 21:58:35,045]  -------------------------- PASSED -------------------------- 
+<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- MyReview_02_Verify_Review_Display_In_My_Product_Review -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.nopcommerce.user.MyAccount_04_My_Product_Preview@4f063c0a]" name="afterClass" is-config="true" duration-ms="1803" started-at="2023-05-04T14:58:35Z" finished-at="2023-05-04T14:58:36Z">
+          <reporter-output>
+            <line>
+              <![CDATA[[INFO ] [2023-05-04 21:58:35,047] Log out account
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2023-05-04 21:58:36,108] OS name = windows 10
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2023-05-04 21:58:36,108] Driver instance name = windows 10
+<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.nopcommerce.user.MyAccount_04_My_Product_Preview -->
     </test> <!-- run on CHROME -->
   </suite> <!-- NopCommerce - User -->
 </testng-results>

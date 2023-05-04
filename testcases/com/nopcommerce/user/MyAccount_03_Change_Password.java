@@ -195,6 +195,8 @@ public class MyAccount_03_Change_Password extends BaseTest{
 	
 	@AfterClass(alwaysRun=true)
 	public void afterClass() {
+		log.info("Log out account");
+		homePage.clickLogoutLinktext();
 		closeBrowserAndDriver();
 	}
 }
